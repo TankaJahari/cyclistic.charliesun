@@ -60,9 +60,9 @@ While the density map does show a concentration of rides near the lake shore for
 ## Top three recommendations:
 
 
-### 1. Get casual users to think about Cyclistic for more than just recreation/leisure. Our data shows that many casual users likely already use Cyclistic to get home from work. Get casual users to think about using Cyclistic for commuting more.
+### 1. Get casual users to think more about using Cyclistic for commuting. Our data shows that many casual users may already use Cyclistic to commute after work. 
 
- - Market Cyclistic's electric bikes, especially as a morning commute option. The data for casual users showed that they many may already using Cyclistic to commute *after* work, but not to work in the morning. This could be for many reasons, but a couple guesses are that they are in a hurry to get to work, or they don't want to show up sweaty and out of breath in their business attire. Since casual users showed a high usage rate of electric bikes, we could specifically market using electric bikes to get to work. Electric bikes are a great option for users wanting to fit in some exercise on the way to work but not exert too much energy.
+ - Market Cyclistic's electric bikes, especially as a morning commute option. The data for casual users showed that many may already using Cyclistic to commute *from*, but not *to* work. This could be for many reasons, but a logical guess would be that they're in a hurry to get to work, or don't want to show up sweaty and out of breath in business attire. Since casual users showed a high usage rate of electric bikes, we could specifically market using electric bikes to get to work. Electric bikes are a great option for users wanting to fit in some exercise on the way to work while not exerting too much energy.
    
  - Use referral incentives. Since many annual users are using Cyclistic to commute, they may have colleagues who have used Cyclistic casually in the past, that they could recommend Cyclistic to as a commuting option. For example, a free half year for both users if the new user signs up for an annual membership.
    
