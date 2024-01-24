@@ -23,6 +23,8 @@
 ## Supporting visualizations and key findings:
 
 *tableau dashboard link*
+
+
 **Ride Duration:**
 
 Casual members' rides last longer than annual members’. On average, casual user rides lasted over 19 minutes while annual member rides lasted just under 12.
