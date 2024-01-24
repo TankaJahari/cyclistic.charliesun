@@ -33,12 +33,13 @@ Casual members' rides last longer than annual members’. On average, casual use
 **Bike Types:**
 
 Casual users rode electric bikes more than classic bikes and had some usage of docked bikes (870,859 rides with classic bikes, 1,103,644 with electric bikes, 75,765 with docked bikes).
+
 Annual members used classic and electric bikes nearly evenly and did not use docked bikes (1,816,875 rides with classic bikes, 1,841,059 with electric bikes).
 
 **Hour of Day:**
 
 Visualizing the rides per hour of day showed two significant peaks for annual members: In the morning and early evenings, 8AM and 5PM (and surrounding hours).
-For casual members, the peak usage hour was 5PM and was not very significant. 
+For casual members, the peak usage hour was 5PM and the peak was not very significant. 
 
 **Day of Week:**
 
