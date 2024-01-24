@@ -7,18 +7,16 @@
   
 ## Description of all data sources used:
 
-  Our data comes directly from the primary source: Cyclistic Bikeshare services (Divvy). 
-
-  The data is open and made available to use by [this license agreement](https://divvybikes.com/data-license-agreement)
+  Our data comes directly from the primary source: Cyclistic Bikeshare services (Divvy). The data is open and made available to use by [this license agreement](https://divvybikes.com/data-license-agreement)
   
-  [Our data](https://divvy-tripdata.s3.amazonaws.com/index.html) came in the form of 12 .csv files; one for each month of 2023.
+  [Our data](https://divvy-tripdata.s3.amazonaws.com/index.html) comes in the form of 12 .csv files, one for each month of 2023.
 
 
 ## Documentation of any cleaning or manipulation of data:
 
   I chose to use SQL in BigQuery to gather, clean, and analyze our data. Because we have 12 large datasets totaling nearly 6 million rows, with 13 columns each, there is too much data to only use a spreadsheet tool.
   
-  SQL Query: [*Data Cleaning and Manipulation*](https://github.com/TankaJahari/cyclistic.charliesun/blob/main/Data%20Cleaning%20and%20Manipulation.sql)
+  SQL Query: [Data Cleaning and Manipulation](https://github.com/TankaJahari/cyclistic.charliesun/blob/main/Data%20Cleaning%20and%20Manipulation.sql)
 
 
 ## Supporting visualizations and key findings:
@@ -28,18 +26,24 @@
 
 **Ride Duration:**
 
-Casual members' rides last longer than annual members’. On average, casual user rides lasted over 19 minutes while annual member rides lasted just under 12.
+Casual member rides lasted longer than annual member rides. On average, casual user rides lasted over 19 minutes while annual member rides lasted just under 12 minutes.
 
 **Bike Types:**
 
-Casual users rode electric bikes more than classic bikes and had some usage of docked bikes (870,859 rides with classic bikes, 1,103,644 with electric bikes, 75,765 with docked bikes).
+There are three bike types in our data: classic, electric, and docked. Docked bikes were used exclusively by casual users and made up 3.6% of their total rides. 
 
-Annual members used classic and electric bikes nearly evenly and did not use docked bikes (1,816,875 rides with classic bikes, 1,841,059 with electric bikes).
+Casual users had significantly more rides with electric bikes than classic bikes (870,859 with classic, 1,103,644 with electric, 75,765 with docked).
+
+Annual members used classic and electric bikes nearly evenly (1,816,875 rides with classic bikes, 1,841,059 with electric bikes).
+
+The average ride time for the bike types also showed some insights. Electric bike rides were shorter for both usertypes. 
 
 **Hour of Day:**
 
-Visualizing the rides per hour of day showed two significant peaks for annual members: In the morning and early evenings, 8AM and 5PM (and surrounding hours).
-For casual members, the peak usage hour was 5PM and the peak was not very significant. 
+Visualizing the data for rides per hour of day showed some similarities *and* differences between the two user types.
+
+For annual members, the ride count started low in the early morning but saw a spike at 8AM. It then trails off until the early evening hours, peaking at 5PM.
+For casual members, the ride count also started low in the morning and continuously rose throughout the day peaking at around 5PM. 
 
 **Day of Week:**
 
