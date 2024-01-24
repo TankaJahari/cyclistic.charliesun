@@ -1,11 +1,11 @@
 # Cyclistic Case Study 
 
-## Business task:
+## Business Task:
 
   In this case study, I am tasked with finding key differences in how annual members and casual members use Cyclistic. These differences will be used to provide insights and recommendations to our stakeholders to help convert casual users into annual members.
 
   
-## Description of all data sources used:
+## Data Sources:
 
   Our data comes directly from the primary source: Cyclistic Bikeshare services (Divvy). The data is open and made available to use by [this license agreement](https://divvybikes.com/data-license-agreement)
   
@@ -19,7 +19,7 @@
   [Click here for full SQL Query](https://github.com/TankaJahari/cyclistic.charliesun/blob/main/Data%20Cleaning%20and%20Manipulation.sql)
 
 
-## Supporting visualizations and key findings:
+## Supporting Visualizations and Key Findings:
 
 *tableau dashboard link*
 
