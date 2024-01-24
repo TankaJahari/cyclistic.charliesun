@@ -17,7 +17,7 @@
 ## Documentation of any cleaning or manipulation of data:
 
   I chose to use SQL in BigQuery to gather, clean, and analyze our data. Because we have 12 large datasets totaling nearly 6 million rows, with 13 columns each, there is too much data to only use a spreadsheet tool.
-  *Please see "Data Cleaning and Manipulation" file on main page for complete SQL query*
+  [*Data Cleaning and Manipulation*](https://github.com/TankaJahari/cyclistic.charliesun/blob/main/Data%20Cleaning%20and%20Manipulation.sql)
 
 
 ## Supporting visualizations and key findings:
@@ -53,9 +53,9 @@ Comparing the rides per month for user types showed virtually no difference. Chi
 Using start location long/lat coordinates as data points, I found that there was a higher concentration of rides for casual users along the lake shore compared to annual members.
 While the density map does show a concentration of rides near the lake shore for annual members, it covers less area, and is noticeably less dense.
 
-##Summary of Analysis:
+## Summary of Analysis:
 
-Top three recommendations based on my analysis:
+### Top three recommendations:
 
 
 **1. Get casual users to think Cyclistic for more than just recreation/leisure. Our data shows that some casual users likely already use Cyclistic to get home from work. Get casual users to think about using Cyclistic for commuting more.**
