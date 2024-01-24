@@ -1,4 +1,4 @@
-# cyclistic.charliesun
+# Cyclistic Case Study 
 
 ## Business task:
 
