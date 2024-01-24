@@ -1,6 +1,6 @@
 # cyclistic.charliesun
 
-## The business task:
+## Business task:
 
   In this case study, I am tasked with finding key differences in how annual members and casual members use Cyclistic. These differences will be used to provide insights and recommendations to our stakeholders to help convert casual users into annual members.
 
