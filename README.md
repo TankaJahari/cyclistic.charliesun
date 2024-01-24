@@ -34,15 +34,16 @@
 
  - Annual members used classic and electric bikes nearly evenly: 1,816,875 classic bike rides vs. 1,841,059 electric bike rides.
 
- - Electric bike rides were shorter than classic bike rides for both types of users. 
+ - Rides with electric bikes were shorter than rides with classic bikes for both usertypes.
 
 ### Hour of Day
 
  - Visualizing the data for rides per hour of day showed both similarities and differences between the two user types.
 
- - For annual members, the ride count started low in the early morning, trended upwards and **spiked at 8AM**. It then trailed off before rising again and **peaked at 5PM**. 
+ - For casual users, the ride count started low in the morning but continuously rose throughout the day and **peaked at 5PM** before a decline into the nighttime hours.
 
- - For casual users, the ride count also started low in the morning but continuously trended upwards throughout the day and also peaked at around 5PM.
+ - For annual members, the ride count also started low in the early morning, but rose more rapidly and **spiked at 8AM**. It then trailed off until 12PM before rising again and **peaked at 5PM**. There was a steeper decline into the nighttime hours for annual members. 
+
 
 ### Day of Week
 
@@ -62,9 +63,9 @@
 
 ## Summary of Analysis
 
- - Casual users, compared to annual members, likely utilized Cyclistic more for recreation and leisure based on their **longer average ride durations, peak usage days (weekends), and ride locations**.
+ - Casual users, compared to annual members, likely utilized Cyclistic more for recreation and leisure based on their **longer average ride durations, peak usage days (weekends), preferred bike type, and ride locations**. 
 
- - Annual members on the other hand, likely utilized Cyclistic more for commuting and as a general means of transportation. This observation is based on their **peak usage days and hours (weekdays; 8AM and 5PM), shorter average ride durations, and total volume of rides**.
+ - Annual members on the other hand, likely utilized Cyclistic more for commuting and as a general means of transportation. This observation is based on their **peak usage days and hours (weekdays; 8AM and 5PM), shorter average ride durations, and total volume of rides**. Annual members showed a relatively negligible difference in bike type preference
 
 
  - However, our data does show some simliarities. Aside from the predictable outcome that both user types ride Cyclistic bikes more during the spring and summer months due to Chicago's climate, many casual users are likely also using Cyclistic for at least part of their commutes. While casual users did not have a peak hour at 8AM, their *highest usage hour was also at 5PM*. This suggests that casual users may be opting to use Cyclistic when their workday is over, and are in less of a rush. 
