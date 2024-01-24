@@ -12,11 +12,11 @@
   [Our data](https://divvy-tripdata.s3.amazonaws.com/index.html) comes in the form of 12 .csv files, one for each month of 2023.
 
 
-## Documentation of any cleaning or manipulation of data:
+## Data Cleaning and Manipulation:
 
   I chose to use SQL in BigQuery to gather, clean, and analyze our data. Because we have 12 large datasets totaling nearly 6 million rows, with 13 columns each, there is too much data to only use a spreadsheet tool.
   
-  SQL Query: [Data Cleaning and Manipulation](https://github.com/TankaJahari/cyclistic.charliesun/blob/main/Data%20Cleaning%20and%20Manipulation.sql)
+  [Click here for full SQL Query](https://github.com/TankaJahari/cyclistic.charliesun/blob/main/Data%20Cleaning%20and%20Manipulation.sql)
 
 
 ## Supporting visualizations and key findings:
