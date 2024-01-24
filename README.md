@@ -53,21 +53,27 @@ Comparing the rides per month for user types showed virtually no difference. Chi
 Using start location long/lat coordinates as data points, I found that there was a higher concentration of rides for casual users along the lake shore compared to annual members.
 While the density map does show a concentration of rides near the lake shore for annual members, it covers less area, and is noticeably less dense.
 
-Summary of Analysis:
+##Summary of Analysis:
 
 Top three recommendations based on my analysis:
 
 
 **1. Get casual users to think Cyclistic for more than just recreation/leisure. Our data shows that some casual users likely already use Cyclistic to get home from work. Get casual users to think about using Cyclistic for commuting more.**
- - Casual users showed a higher usage rate of electric bikes. Cyclistic’s electric bikes are a great option for users wanting to fit in some exercise on the way to work but not exert too much energy.	
+
+ - Casual users showed a higher usage rate of electric bikes. Cyclistic’s electric bikes are a great option for users wanting to fit in some exercise on the way to work but not exert too much energy.
+   
  - Use referral incentives. Since many annual users are using Cyclistic to commute, they may have colleagues who have used Cyclistic casually, that they could recommend Cyclistic to. For example, a free half year for both users if the new user signs up for an annual membership.
+   
  - Advertise Cyclistic stations near train stations/bus stops that a casual user might frequent
 
 **2. Increase marketing spending for lake shore and other popular tourist locations in Chicago as well as less-known station locations.**
+
  - If a casual user is using a parking app in a busy or “difficult to drive” location, advertise nearby Cyclistic stations so they may think “hmm, next time, I could just use Cyclistic and bike from/to here”.
+   
  - Utilize ads on various digital channels (search engines, social media platforms) to advertise Cyclistic stations when users are searching for or browsing Chicago’s tourist locations, restaurants, etc.
 
 **3. Increase marketing spending during the weekend days.**
+
  - One of the biggest differences in the data of the two user types was the amount of rides that were on the weekend days. Since casual users are using Cyclistic more on these days, there is likely value to gain from focusing on digitally marketing during the weekends 
 
 
