@@ -2,7 +2,7 @@
 
 ## Business Task
 
-  In this case study, I am tasked with finding key differences in how annual members and casual members use Cyclistic. These differences will be used to provide insights and recommendations to our stakeholders to help convert casual users into annual members.
+  In this case study, I am tasked with finding key differences in how annual members and casual users use Cyclistic. These differences will be used to provide insights and recommendations to our stakeholders to help convert casual users into annual members.
 
   
 ## Data Sources
@@ -47,11 +47,11 @@
 
  - For annual members, the ride count started low in the early morning, trended upwards and **spiked at 8AM**. It then trailed off before rising again and **peaked at 5PM**. 
 
- - For casual members, the ride count also started low in the morning but continuously trended upwards throughout the day and also peaked at around 5PM.
+ - For casual users, the ride count also started low in the morning but continuously trended upwards throughout the day and also peaked at around 5PM.
 
 ### Day of Week
 
- - For casual members, the highest usage days were weekend days: **Friday, Saturday, and Sunday**, significantly peaking on Saturday.
+ - For casual users, the highest usage days were weekend days: **Friday, Saturday, and Sunday**, significantly peaking on Saturday.
 
  - For annual members, the highest usage days were in the middle of the week: **Tuesday, Wednesday, and Thursday**. No day had a significant peak, and usage dropped off on the weekend days.
  
@@ -99,13 +99,15 @@
 
  - One of the biggest differences in the data of the two user types was the amount of rides that were on the weekend days. Since casual users are using Cyclistic more on these days, there is likely value to gain from focusing on marketing to them during the weekends.
 
+ - Although it's predictable for a city like Chicago, our data confirms that the spring and summer months are when the majority of rides take place. Focus marketing resources on the spring and summer months (if not already doing so).
+   
 
 --#Comments:
 
 --#nulls
 --Roughly ~550,000 null station names/ids for annual members and ~350,000 for casual users. 
 --For Annual members, there were more nulls (missing data) in their start_station data than in their end_station data by about 0.4%. 
---For Casual members, the inverse was true: *Less* nulls in start_station data by about 14.6%. So the trips for Casual riders more often had their start_station data while missing a larger proportion of end_station data.
+--For Casual users, the inverse was true: *Less* nulls in start_station data by about 14.6%. So the trips for Casual riders more often had their start_station data while missing a larger proportion of end_station data.
 --This pattern may not be relevant to the analysis for our current task, but it could be useful in others so I wanted to include it in some way.
 
 
