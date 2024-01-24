@@ -5,7 +5,7 @@
   In this case study, I am tasked with finding key differences in how annual members and casual members use Cyclistic. These differences will be used to provide insights and recommendations to our stakeholders to help convert casual users into annual members.
 
   
-### Description of all data sources used:
+## Description of all data sources used:
 
   Our data comes directly from the primary source, Cyclistic (Divvy). 
 
