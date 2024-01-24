@@ -57,7 +57,7 @@
  
 ### Month:
 
- - Comparing the rides per month for user types showed virtually no difference. Chicago is a very seasonal city, and it is no surprise that both casual users and annual members rode more during spring and summer months. However, this data can be helpful for allocating marketing resources towards this time of year.
+ - Comparing the rides per month for user types showed virtually no difference. Chicago is a very seasonal city, and it is no surprise that both casual users and annual members used Cyclistic significantly more during spring and summer months. This data can still be helpful for as evidence that marketing resources should be allocated towards these times of year.
 
 ### Ride Locations:
 
