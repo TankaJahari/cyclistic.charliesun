@@ -5,11 +5,11 @@
   In this case study, I am tasked with finding key differences in how annual members and casual members use Cyclistic. These differences will be used to provide insights and recommendations to our stakeholders to help convert casual users into annual members.
 
   
-## Description of all data sources used:
+### Description of all data sources used:
 
   Our data comes directly from the primary source, Cyclistic (Divvy). 
 
-  It is open data made available to use by this license agreement: https://divvybikes.com/data-license-agreement
+  The data is open, made available to use by this license agreement: https://divvybikes.com/data-license-agreement
   
   Our data came in the form of .csv files; one file for each month of the year 2023 (https://divvy-tripdata.s3.amazonaws.com/index.html)
 
