@@ -56,7 +56,7 @@ While the density map does show a concentration of rides near the lake shore for
 
 ## Summary of Analysis:
 
-### Top three recommendations:
+## Top three recommendations:
 
 
 **1. Get casual users to think Cyclistic for more than just recreation/leisure. Our data shows that some casual users likely already use Cyclistic to get home from work. Get casual users to think about using Cyclistic for commuting more.**
