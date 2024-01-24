@@ -1,37 +1,37 @@
 # Cyclistic Case Study 
 
-## Business Task:
+## Business Task
 
   In this case study, I am tasked with finding key differences in how annual members and casual members use Cyclistic. These differences will be used to provide insights and recommendations to our stakeholders to help convert casual users into annual members.
 
   
-## Data Sources:
+## Data Sources
 
   Our data comes directly from the primary source: Cyclistic Bikeshare services (Divvy). The data is open and made available to use by [this license agreement](https://divvybikes.com/data-license-agreement)
   
   [Our data](https://divvy-tripdata.s3.amazonaws.com/index.html) comes in the form of 12 .csv files, one for each month of 2023.
 
 
-## Data Cleaning and Manipulation:
+## Data Cleaning and Manipulation
 
   I chose to use SQL in BigQuery to gather, clean, and analyze our data. Because there are 12 large datasets that total nearly 6 million rows with 13 columns, a spreadsheet tool would be quite unwieldy.
   
   [Click here for full SQL Query](https://github.com/TankaJahari/cyclistic.charliesun/blob/main/Data%20Cleaning%20and%20Manipulation.sql)
 
 
-## Supporting Visualizations and Key Findings:
+## Supporting Visualizations and Key Findings
 
 *tableau dashboard link*
 
-### Total Rides:
+### Total Rides
 
  - Of the 5,708,202 rides in our analysis, casual users accounted for 2,050,268 (~36%), and annual users accounted for 3,657,934 (~64%).
 
-### Ride Durations:
+### Ride Durations
 
  - Casual member rides lasted longer than annual member rides. On average, casual user rides lasted over 19 minutes while annual member rides lasted just under 12 minutes.
 
-### Bike Types:
+### Bike Types
 
  - There are three bike types in our data: classic, electric, and docked. Docked bikes were used exclusively by casual users and made up 3.6% of their total rides. 
 
@@ -41,7 +41,7 @@
 
  - Electric bike rides were shorter than classic bike rides for both types of users. 
 
-### Hour of Day:
+### Hour of Day
 
  - Visualizing the data for rides per hour of day showed both similarities and differences between the two user types.
 
@@ -49,23 +49,23 @@
 
  - For casual members, the ride count also started low in the morning but continuously trended upwards throughout the day and also peaked at around 5PM.
 
-### Day of Week:
+### Day of Week
 
  - For casual members, the highest usage days were weekend days: **Friday, Saturday, and Sunday**, significantly peaking on Saturday.
 
  - For annual members, the highest usage days were in the middle of the week: **Tuesday, Wednesday, and Thursday**. No day had a significant peak, and usage dropped off on the weekend days.
  
-### Month:
+### Month
 
  - Comparing the rides per month for user types showed virtually no difference. Chicago is a very seasonal city, and it is no surprise that both casual users and annual members used Cyclistic significantly more during spring and summer months. This data can still be helpful for as evidence that marketing resources should be allocated towards these times of year.
 
-### Ride Locations:
+### Ride Locations
 
  - Using start location long/lat coordinates as geographical data points for rides, our visualization showed that there was a higher concentration of rides for casual users along the lake shore compared to annual members.
 
  - While the density map does show a concentration of rides near the lake shore for annual members, it covers less area and is less dense.
 
-## Summary of Analysis:
+## Summary of Analysis
 
  - Casual users, compared to annual members, likely utilized Cyclistic more for recreation and leisure based on their **longer average ride durations, peak usage days (weekends), and ride locations**.
 
@@ -76,7 +76,7 @@
 
 
    
-## Recommendations:
+## Stakeholder Recommendations
 
 
 ### 1. Get casual users to think about using Cyclistic for commuting more. Our data shows that casual users may already be using Cyclistic to commute after work. 
