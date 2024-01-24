@@ -76,24 +76,26 @@
 
 
    
-## Stakeholder Recommendations
+## Recommendations for Stakeholders
 
 
 ### 1. Get casual users to think about using Cyclistic for commuting more. Our data shows that casual users may already be using Cyclistic to commute after work. 
 
  - Market Cyclistic's electric bikes, especially as a morning commute option. The data for casual users showed that many may already using Cyclistic to commute *from*, but not *to* work. This could be for many reasons, but a logical guess would be that they're in a hurry to get to work, or don't want to show up sweaty and out of breath in business attire. Since casual users showed a high usage rate of electric bikes, we could specifically market using electric bikes to get to work. Electric bikes are a great option for users wanting to fit in some exercise on the way to work while not exerting too much energy.
    
- - Use referral incentives. Since many annual users are using Cyclistic to commute, they may have colleagues who have used Cyclistic casually in the past, that they could recommend Cyclistic to as a commuting option. For example, a free half year for both users if the new user signs up for an annual membership.
+ - Use referral incentives. Since many annual members use Cyclistic to commute, they may have colleagues and co-workers who use the service casually, that could be converted into annual members by seeing Cyclistic as an option for commuting. For example, a free half or quarter year of membership for both users if the new user signs up for an annual membership.
    
- - Increase awareness of Cyclistic stations near train stations/bus stops that casuals users frequent.
 
-### 2. Increase marketing spending for lake shore and other popular tourist locations in Chicago as well as less-known station locations.
+### 2. Increase marketing spending for the lake shore and other popular tourist locations in Chicago as well as less-known station locations.
 
  - If a casual user is using a parking app in a busy or “difficult to drive” location, advertise nearby Cyclistic stations so they may think “hmm, next time, I could just use Cyclistic and bike from/to here”.
    
  - Utilize ads on various digital channels (search engines, social media platforms) to advertise Cyclistic stations when users are searching for or browsing Chicago’s tourist locations, restaurants, etc.
 
-### 3. Increase marketing spending during the weekend days.
+ - Increase awareness of Cyclistic stations near train stations/bus stops that casuals users frequent.
+
+
+### 3. Increase marketing spending during the weekend days and spring and summer months.
 
  - One of the biggest differences in the data of the two user types was the amount of rides that were on the weekend days. Since casual users are using Cyclistic more on these days, there is likely value to gain from focusing on marketing to them during the weekends.
 
