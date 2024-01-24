@@ -57,7 +57,7 @@
  
 ### Month:
 
- - Comparing the rides per month for user types showed virtually no difference. Chicago is a very seasonal city, and it is no surprise that both casual users and annual members rode more during spring and summer months.
+ - Comparing the rides per month for user types showed virtually no difference. Chicago is a very seasonal city, and it is no surprise that both casual users and annual members rode more during spring and summer months. However, this data can be helpful for allocating marketing resources towards this time of year.
 
 ### Ride Locations:
 
@@ -72,8 +72,7 @@
  - Annual members on the other hand, likely utilized Cyclistic more for commuting and as a general means of transportation. This observation is based on their **peak usage days and hours (weekdays; 8AM and 5PM), shorter average ride durations, and total volume of rides**.
 
 
- - However, our data does show that many casual users may already be using Cyclistic for at least part of their commutes. While casual users did not have a peak hour at 8AM, their highest usage hour was still 5PM. This suggests that casual users may be opting to use Cyclistic when their workday is over, and are in less of a rush.
-
+ - However, our data does show some simliarities. Aside from the predictable outcome that both user types ride Cyclistic bikes more during the spring and summer months due to Chicago's climate, many casual users are likely also using Cyclistic for at least part of their commutes. While casual users did not have a peak hour at 8AM, their *highest usage hour was also at 5PM*. This suggests that casual users may be opting to use Cyclistic when their workday is over, and are in less of a rush. 
 
 
    
