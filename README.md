@@ -23,6 +23,9 @@
 
 *tableau dashboard link*
 
+### Total Rides:
+
+ - Of the 5,708,202 rides in our analysis, casual users accounted for 2,050,268 (~36%), and annual users accounted for 3,657,934 (~64%).
 
 ### Ride Durations:
 
@@ -40,17 +43,17 @@
 
 ### Hour of Day:
 
-Visualizing the data for rides per hour of day showed some similarities *and* differences between the two user types.
+Visualizing the data for rides per hour of day showed both similarities differences between the two user types.
 
- - For annual members, the ride count started low in the early morning but saw a spike at 8AM. It then trails off until the early evening hours, peaking at 5PM.
+ - For annual members, the ride count started low in the early morning, trending upwards and seeing a spike at 8AM. It then trails off before rising again in the early evening hours, peaking at 5PM.
 
- - For casual members, the ride count also started low in the morning and continuously rose throughout the day peaking at around 5PM. 
+ - For casual members, the ride count also started low in the morning but continuously trended upwards throughout the day peaking at around 5PM, after which it begins to trend downwards.
 
 ### Day of Week:
 
- - For casual members, the highest usage days were weekend days: Friday, Saturday, and Sunday, significantly peaking on Saturday
+ - For casual members, the highest usage days were weekend days: Friday, Saturday, and Sunday, significantly peaking on Saturday.
 
- - For annual members, the highest usage days were in the middle of the week: Tuesday, Wednesday, and Thursday. No day had a significant peak, and usage dropped off a bit on the weekend days.
+ - For annual members, the highest usage days were in the middle of the week: Tuesday, Wednesday, and Thursday. No day had a significant peak, and usage dropped off on the weekend days.
  
 ### Month:
 
@@ -64,10 +67,18 @@ Visualizing the data for rides per hour of day showed some similarities *and* di
 
 ## Summary of Analysis:
 
-## Top three recommendations:
+ - Our analysis uncovered some key insights about how casual users and annual members use Cyclistic differently, but also similarly.
+
+ - Casual users, compared to annual members, likely utilized Cyclistic more for recreation and leisure based on their longer average ride durations, peak usage days (weekends), and ride locations. *However*, our data does show that many casual users may be using Cyclistic for at least part of their commute. While casual users did not have a peak at 8AM for the beginning of their day like annual members, their highest usage hour was still 5PM. This suggests that casual users may be opting to use Cyclistic when their workday is over, and they are in less of a rush.
 
 
-### 1. Get casual users to think more about using Cyclistic for commuting. Our data shows that many casual users may already use Cyclistic to commute after work. 
+ - Annual members, compared to casual users, likely utilized Cyclistic more for commuting and as a general means of transportation. This observation is based on their shorter average ride durations, total volume of rides, peak usage days (weekdays), and peak usage hours (8AM, 5PM).
+
+   
+## Recommendations:
+
+
+### 1. Get casual users to think about using Cyclistic for commuting more. Our data shows that casual users may already be using Cyclistic to commute after work. 
 
  - Market Cyclistic's electric bikes, especially as a morning commute option. The data for casual users showed that many may already using Cyclistic to commute *from*, but not *to* work. This could be for many reasons, but a logical guess would be that they're in a hurry to get to work, or don't want to show up sweaty and out of breath in business attire. Since casual users showed a high usage rate of electric bikes, we could specifically market using electric bikes to get to work. Electric bikes are a great option for users wanting to fit in some exercise on the way to work while not exerting too much energy.
    
