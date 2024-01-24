@@ -5,14 +5,9 @@
   In this case study, I am tasked with finding key differences in how annual members and casual users use Cyclistic. These differences will be used to provide insights and recommendations to our stakeholders to help convert casual users into annual members.
 
   
-## Data Sources
+## Data Sources, Data Cleaning, and Manipulation
 
-  Our data comes directly from the primary source: Cyclistic Bikeshare services (Divvy). The data is open and made available to use by [this license agreement](https://divvybikes.com/data-license-agreement)
-  
-  [Our data](https://divvy-tripdata.s3.amazonaws.com/index.html) comes in the form of 12 .csv files, one for each month of 2023.
-
-
-## Data Cleaning and Manipulation
+ [Our data](https://divvy-tripdata.s3.amazonaws.com/index.html) comes directly from the primary source: Cyclistic Bikeshare services (Divvy). The data is open and made available to use by [this license agreement](https://divvybikes.com/data-license-agreement). It comes in the form of 12 .csv files, one for each month of 2023.
 
   I chose to use SQL in BigQuery to gather, clean, and analyze our data. Because there are 12 large datasets that total nearly 6 million rows with 13 columns, a spreadsheet tool would be quite unwieldy.
   
