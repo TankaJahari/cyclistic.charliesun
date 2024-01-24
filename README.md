@@ -18,7 +18,7 @@ Documentation of any cleaning or manipulation of data:
   *Please see "Data Cleaning and Manipulation" file on main page for complete SQL query*
 
 
-#Supporting visualizations and key findings:
+**Supporting visualizations and key findings:**
 
 *tableau dashboard link*
 Ride Duration:
