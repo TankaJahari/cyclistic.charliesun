@@ -54,7 +54,7 @@ For annual members, the highest usage days were in the middle of the week: Tuesd
 
 Comparing the rides per month for user types showed virtually no difference. Chicago is a very seasonal city, and it is no surprise that both casual users and annual members rode more during spring and summer months.
 
-**Start Location Map:**
+## Ride Locations:
 
 Using start location long/lat coordinates as data points, I found that there was a higher concentration of rides for casual users along the lake shore compared to annual members.
 While the density map does show a concentration of rides near the lake shore for annual members, it covers less area, and is noticeably less dense.
@@ -78,7 +78,7 @@ While the density map does show a concentration of rides near the lake shore for
    
  - Utilize ads on various digital channels (search engines, social media platforms) to advertise Cyclistic stations when users are searching for or browsing Chicago’s tourist locations, restaurants, etc.
 
-### 3. Increase marketing spending during the weekend days.
+#### 3. Increase marketing spending during the weekend days.
 
  - One of the biggest differences in the data of the two user types was the amount of rides that were on the weekend days. Since casual users are using Cyclistic more on these days, there is likely value to gain from focusing on marketing to them during the weekends.
 
