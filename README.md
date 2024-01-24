@@ -67,12 +67,14 @@ Visualizing the data for rides per hour of day showed both similarities differen
 
 ## Summary of Analysis:
 
- - Our analysis uncovered some key insights about how casual users and annual members use Cyclistic differently, but also similarly.
+ - **Casual users**, compared to annual members, likely utilized Cyclistic more for recreation and leisure based on their longer average ride durations, peak usage days (weekends), and ride locations.
 
- - Casual users, compared to annual members, likely utilized Cyclistic more for recreation and leisure based on their longer average ride durations, peak usage days (weekends), and ride locations. *However*, our data does show that many casual users may be using Cyclistic for at least part of their commute. While casual users did not have a peak at 8AM for the beginning of their day like annual members, their highest usage hour was still 5PM. This suggests that casual users may be opting to use Cyclistic when their workday is over, and they are in less of a rush.
+ - **Annual members**, compared to casual users, likely utilized Cyclistic more for commuting and as a general means of transportation. This observation is based on their peak usage days and hours (weekdays; 8AM and 5PM), shorter average ride durations, and total volume of rides.
 
 
- - Annual members, compared to casual users, likely utilized Cyclistic more for commuting and as a general means of transportation. This observation is based on their shorter average ride durations, total volume of rides, peak usage days (weekdays), and peak usage hours (8AM, 5PM).
+ - However, our data does show that many casual users may already be using Cyclistic for at least part of their commutes. While casual users did not have a peak hour at 8AM, their highest usage hour was still 5PM. This suggests that casual users may be opting to use Cyclistic when their workday is over, and are in less of a rush.
+
+
 
    
 ## Recommendations:
