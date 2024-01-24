@@ -60,23 +60,23 @@ While the density map does show a concentration of rides near the lake shore for
 ## Top three recommendations:
 
 
-**1. Get casual users to think Cyclistic for more than just recreation/leisure. Our data shows that some casual users likely already use Cyclistic to get home from work. Get casual users to think about using Cyclistic for commuting more.**
+### 1. Get casual users to think about Cyclistic for more than just recreation/leisure. Our data shows that many casual users likely already use Cyclistic to get home from work. Get casual users to think about using Cyclistic for commuting more.
 
- - Casual users showed a higher usage rate of electric bikes. Cyclistic’s electric bikes are a great option for users wanting to fit in some exercise on the way to work but not exert too much energy.
+ - Market Cyclistic's electric bikes, especially as a morning commute option. The data for casual users showed that they many may already using Cyclistic to commute *after* work, but not to work in the morning. This could be for many reasons, but a couple guesses are that they are in a hurry to get to work, or they don't want to show up sweaty and out of breath in their business attire. Since casual users showed a high usage rate of electric bikes, we could specifically market using electric bikes to get to work. Electric bikes are a great option for users wanting to fit in some exercise on the way to work but not exert too much energy.
    
- - Use referral incentives. Since many annual users are using Cyclistic to commute, they may have colleagues who have used Cyclistic casually, that they could recommend Cyclistic to. For example, a free half year for both users if the new user signs up for an annual membership.
+ - Use referral incentives. Since many annual users are using Cyclistic to commute, they may have colleagues who have used Cyclistic casually in the past, that they could recommend Cyclistic to as a commuting option. For example, a free half year for both users if the new user signs up for an annual membership.
    
- - Advertise Cyclistic stations near train stations/bus stops that a casual user might frequent
+ - Increase awareness of Cyclistic stations near train stations/bus stops that casuals users frequent.
 
-**2. Increase marketing spending for lake shore and other popular tourist locations in Chicago as well as less-known station locations.**
+### 2. Increase marketing spending for lake shore and other popular tourist locations in Chicago as well as less-known station locations.
 
  - If a casual user is using a parking app in a busy or “difficult to drive” location, advertise nearby Cyclistic stations so they may think “hmm, next time, I could just use Cyclistic and bike from/to here”.
    
  - Utilize ads on various digital channels (search engines, social media platforms) to advertise Cyclistic stations when users are searching for or browsing Chicago’s tourist locations, restaurants, etc.
 
-**3. Increase marketing spending during the weekend days.**
+### 3. Increase marketing spending during the weekend days.
 
- - One of the biggest differences in the data of the two user types was the amount of rides that were on the weekend days. Since casual users are using Cyclistic more on these days, there is likely value to gain from focusing on digitally marketing during the weekends 
+ - One of the biggest differences in the data of the two user types was the amount of rides that were on the weekend days. Since casual users are using Cyclistic more on these days, there is likely value to gain from focusing on marketing to them during the weekends.
 
 
 --#Comments:
