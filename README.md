@@ -7,11 +7,11 @@
   
 ## Description of all data sources used:
 
-  Our data comes directly from the primary source, Cyclistic (Divvy). 
+  Our data comes directly from the primary source: Cyclistic Bikeshare services (Divvy). 
 
-  The data is open, made available to use by this license agreement: https://divvybikes.com/data-license-agreement
+  The data is open and made available to use by [this license agreement](https://divvybikes.com/data-license-agreement)
   
-  Our data came in the form of .csv files; one file for each month of the year 2023 (https://divvy-tripdata.s3.amazonaws.com/index.html)
+  [Our data](https://divvy-tripdata.s3.amazonaws.com/index.html) came in the form of 12 .csv files; one for each month of 2023.
 
 
 ## Documentation of any cleaning or manipulation of data:
