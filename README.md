@@ -35,25 +35,25 @@
 
  - There are three bike types in our data: classic, electric, and docked. Docked bikes were used exclusively by casual users and made up 3.6% of their total rides. 
 
- - Casual users had significantly more rides with electric bikes than classic bikes (870,859 with classic, 1,103,644 with electric, 75,765 with docked).
+ - Casual users had significantly more rides with electric bikes than classic bikes: 870,859 classic bike rides, 1,103,644 electric bike rides, 75,765 docked bike rides.
 
- - Annual members used classic and electric bikes nearly evenly (1,816,875 rides with classic bikes, 1,841,059 with electric bikes).
+ - Annual members used classic and electric bikes nearly evenly: 1,816,875 classic bike rides vs. 1,841,059 electric bike rides.
 
- - The average ride time for the bike types also showed some insights. Electric bike rides were shorter for both usertypes. 
+ - Electric bike rides were shorter than classic bike rides for both types of users. 
 
 ### Hour of Day:
 
-Visualizing the data for rides per hour of day showed both similarities differences between the two user types.
+ - Visualizing the data for rides per hour of day showed both similarities and differences between the two user types.
 
- - For annual members, the ride count started low in the early morning, trending upwards and seeing a spike at 8AM. It then trails off before rising again in the early evening hours, peaking at 5PM.
+ - For annual members, the ride count started low in the early morning, trended upwards and **spiked at 8AM**. It then trailed off before rising again and **peaked at 5PM**. 
 
- - For casual members, the ride count also started low in the morning but continuously trended upwards throughout the day peaking at around 5PM, after which it begins to trend downwards.
+ - For casual members, the ride count also started low in the morning but continuously trended upwards throughout the day and also peaked at around 5PM.
 
 ### Day of Week:
 
- - For casual members, the highest usage days were weekend days: Friday, Saturday, and Sunday, significantly peaking on Saturday.
+ - For casual members, the highest usage days were weekend days: **Friday, Saturday, and Sunday**, significantly peaking on Saturday.
 
- - For annual members, the highest usage days were in the middle of the week: Tuesday, Wednesday, and Thursday. No day had a significant peak, and usage dropped off on the weekend days.
+ - For annual members, the highest usage days were in the middle of the week: **Tuesday, Wednesday, and Thursday**. No day had a significant peak, and usage dropped off on the weekend days.
  
 ### Month:
 
@@ -61,15 +61,15 @@ Visualizing the data for rides per hour of day showed both similarities differen
 
 ### Ride Locations:
 
- - Using start location long/lat coordinates as data points, I found that there was a higher concentration of rides for casual users along the lake shore compared to annual members.
+ - Using start location long/lat coordinates as geographical data points for rides, our visualization showed that there was a higher concentration of rides for casual users along the lake shore compared to annual members.
 
- - While the density map does show a concentration of rides near the lake shore for annual members, it covers less area, and is less dense.
+ - While the density map does show a concentration of rides near the lake shore for annual members, it covers less area and is less dense.
 
 ## Summary of Analysis:
 
- - **Casual users**, compared to annual members, likely utilized Cyclistic more for recreation and leisure based on their longer average ride durations, peak usage days (weekends), and ride locations.
+ - Casual users, compared to annual members, likely utilized Cyclistic more for recreation and leisure based on their **longer average ride durations, peak usage days (weekends), and ride locations**.
 
- - **Annual members**, compared to casual users, likely utilized Cyclistic more for commuting and as a general means of transportation. This observation is based on their peak usage days and hours (weekdays; 8AM and 5PM), shorter average ride durations, and total volume of rides.
+ - Annual members on the other hand, likely utilized Cyclistic more for commuting and as a general means of transportation. This observation is based on their **peak usage days and hours (weekdays; 8AM and 5PM), shorter average ride durations, and total volume of rides**.
 
 
  - However, our data does show that many casual users may already be using Cyclistic for at least part of their commutes. While casual users did not have a peak hour at 8AM, their highest usage hour was still 5PM. This suggests that casual users may be opting to use Cyclistic when their workday is over, and are in less of a rush.
