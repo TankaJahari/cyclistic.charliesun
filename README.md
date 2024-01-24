@@ -24,40 +24,43 @@
 *tableau dashboard link*
 
 
-### Ride Duration:
+### Ride Durations:
 
-Casual member rides lasted longer than annual member rides. On average, casual user rides lasted over 19 minutes while annual member rides lasted just under 12 minutes.
+ - Casual member rides lasted longer than annual member rides. On average, casual user rides lasted over 19 minutes while annual member rides lasted just under 12 minutes.
 
 ### Bike Types:
 
-There are three bike types in our data: classic, electric, and docked. Docked bikes were used exclusively by casual users and made up 3.6% of their total rides. 
+ - There are three bike types in our data: classic, electric, and docked. Docked bikes were used exclusively by casual users and made up 3.6% of their total rides. 
 
-Casual users had significantly more rides with electric bikes than classic bikes (870,859 with classic, 1,103,644 with electric, 75,765 with docked).
+ - Casual users had significantly more rides with electric bikes than classic bikes (870,859 with classic, 1,103,644 with electric, 75,765 with docked).
 
-Annual members used classic and electric bikes nearly evenly (1,816,875 rides with classic bikes, 1,841,059 with electric bikes).
+ - Annual members used classic and electric bikes nearly evenly (1,816,875 rides with classic bikes, 1,841,059 with electric bikes).
 
-The average ride time for the bike types also showed some insights. Electric bike rides were shorter for both usertypes. 
+ - The average ride time for the bike types also showed some insights. Electric bike rides were shorter for both usertypes. 
 
 ### Hour of Day:
 
 Visualizing the data for rides per hour of day showed some similarities *and* differences between the two user types.
 
-For annual members, the ride count started low in the early morning but saw a spike at 8AM. It then trails off until the early evening hours, peaking at 5PM.
-For casual members, the ride count also started low in the morning and continuously rose throughout the day peaking at around 5PM. 
+ - For annual members, the ride count started low in the early morning but saw a spike at 8AM. It then trails off until the early evening hours, peaking at 5PM.
+
+ - For casual members, the ride count also started low in the morning and continuously rose throughout the day peaking at around 5PM. 
 
 ### Day of Week:
 
-For casual members, the highest usage days were weekend days: Friday, Saturday, and Sunday, significantly peaking on Saturday
-For annual members, the highest usage days were in the middle of the week: Tuesday, Wednesday, and Thursday. No day had a significant peak, and usage dropped off a bit on the weekend days.
+ - For casual members, the highest usage days were weekend days: Friday, Saturday, and Sunday, significantly peaking on Saturday
+
+ - For annual members, the highest usage days were in the middle of the week: Tuesday, Wednesday, and Thursday. No day had a significant peak, and usage dropped off a bit on the weekend days.
  
 ### Month:
 
-Comparing the rides per month for user types showed virtually no difference. Chicago is a very seasonal city, and it is no surprise that both casual users and annual members rode more during spring and summer months.
+ - Comparing the rides per month for user types showed virtually no difference. Chicago is a very seasonal city, and it is no surprise that both casual users and annual members rode more during spring and summer months.
 
 ### Ride Locations:
 
-Using start location long/lat coordinates as data points, I found that there was a higher concentration of rides for casual users along the lake shore compared to annual members.
-While the density map does show a concentration of rides near the lake shore for annual members, it covers less area, and is noticeably less dense.
+ - Using start location long/lat coordinates as data points, I found that there was a higher concentration of rides for casual users along the lake shore compared to annual members.
+
+ - While the density map does show a concentration of rides near the lake shore for annual members, it covers less area, and is less dense.
 
 ## Summary of Analysis:
 
