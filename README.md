@@ -17,7 +17,8 @@
 ## Documentation of any cleaning or manipulation of data:
 
   I chose to use SQL in BigQuery to gather, clean, and analyze our data. Because we have 12 large datasets totaling nearly 6 million rows, with 13 columns each, there is too much data to only use a spreadsheet tool.
-  [*Data Cleaning and Manipulation*](https://github.com/TankaJahari/cyclistic.charliesun/blob/main/Data%20Cleaning%20and%20Manipulation.sql)
+  
+  SQL Query: [*Data Cleaning and Manipulation*](https://github.com/TankaJahari/cyclistic.charliesun/blob/main/Data%20Cleaning%20and%20Manipulation.sql)
 
 
 ## Supporting visualizations and key findings:
