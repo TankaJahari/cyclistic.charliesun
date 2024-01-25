@@ -1,21 +1,25 @@
+
+
 --#nulls
 
---We found roughly ~550,000 null station names/ids for annual members and ~350,000 for casual users. 
+--Identified approximately 550,000 null values for station names/IDs among annual members and around 350,000 for casual users.
 
---For annual members, there were more nulls (missing data) in their start_station data than in their end_station data by about 0.4%. 
+--Annual members exhibit slightly more missing data in start_station compared to end_station, approximately 0.4% more.
 
---For casual users, the inverse was true: *Less* nulls in start_station data by about 14.6%. The trips for casual users more often had start_station data while missing a larger proportion of end_station data.
+--Conversely, casual users tend to have fewer null values in start_station data, with a difference of about 14.6%. 
 
---This pattern may not be relevant to the analysis for our current task, but it could be useful in others so I wanted to include it in some way.
-
+--While the pattern may not directly impact our current analysis, it could be relevant for future considerations.
 
 --#outliers
 
+--Examined ride durations and found that 97.5% of rides last less than an hour (5,577,916 out of 5,718,880). It's not at all unlikely for users to use their bikes for longer than one hour, so I don't want to simply omit all rides past one hour.
 
---Examining the data showed that the vast majority of rides lasted no longer than one hour (5,577,916 of 5,718,880; 97.5%).
+--To filter out extreme cases, I implemented an eight-hour (480 minutes) cutoff, affecting only 10,674 rides (0.19%). Some of these extended to *multiple weeks*, potentially skewing our analysis.
 
---It is more than possible for users to use their bikes for longer than one hour, so I don't want to simply omit all rides past one hour.
+--I acknowledge that this is not the ideal or perfect method to determine outliers, and there are scientific ways to more precisely do so, but the sheer volume of observations (almost 6 million) led to my decision to use some more pragmatic decisions for this analysis. .
 
---To be safe, I'll use a cut-off of eight hours, or 480 minutes. Only 10,674 rides out of 5,708,202 rides (0.19%) lasted longer than 480 minutes. There are rides within these 10,674 that lasted multiple WEEKS and certainly would skew our results and findings. 
+--I played with methods like z-scores, interquartile range, and using the median absolute deviation, but I need to refresh and supplement my stats skills to effectively use these in future analyses.
 
---I know this is not the ideal or perfect to determine outliers, and there are scientific ways to more precisely do so, but being that I'm working with almost 6 million observations, I'm just moving forward for now. I played with methods like z-scores, interquartile range, and using the median absolute deviation, but I need to refresh and supplement my stats skills to effectively use these.
+
+
+
