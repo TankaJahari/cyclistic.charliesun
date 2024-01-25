@@ -21,6 +21,7 @@
 
 ## Supporting Visualizations and Key Findings
 
+**For this analysis, I used Tableau Public to visualize key findings with graphs, charts and maps culminating in a dashboard.
 [Link to Tableau Dashboard](https://public.tableau.com/views/CyclisticCaseStudy_17060520013410/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 ### Key Findings:
 <ins>**Total Rides**</ins>
