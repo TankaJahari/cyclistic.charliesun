@@ -36,12 +36,21 @@ For this analysis, I used Tableau Public to visualize the findings from our data
 **Ride Durations**
 
  - On average, casual users had longer rides than annual members. Casual user rides lasted over 19 minutes while annual member rides lasted just under 12 minutes.
+
+<p align="center">  
+<img src= "https://github.com/thecharliesun/cyclistic.charliesun/blob/main/Visualizations/Overall%20Avg%20Durations.PNG?raw=true">
+</p>
  
- - Overall, rides with electric bikes were roughly four minutes shorter than classic bike rides.
+ - Overall, rides with electric bikes were roughly four minutes shorter on average than classic bike rides.
    
  - For annual members, electric bike rides were about one minute shorter than classic bike rides.
    
- - For casual users, electric bike rides were shorter by about nine minutes. 
+ - For casual users, electric bike rides were shorter by about nine minutes.
+
+<p align="center">  
+<img src= "https://github.com/thecharliesun/cyclistic.charliesun/blob/main/Visualizations/Bike%20Type%20Durations.PNG?raw=true">
+</p>
+   
 
 **Bike Types**
 
