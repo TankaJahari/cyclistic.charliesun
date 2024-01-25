@@ -22,14 +22,14 @@
 ## Supporting Visualizations and Key Findings
 
 [Link to Tableau Dashboard](https://public.tableau.com/views/CyclisticCaseStudy_17060520013410/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
-
-### Total Rides
+### Key Findings:
+**Total Rides**
 
  - Of the 5,708,202 rides in our analysis, casual users accounted for ~36% (2,050,268) of the total, and annual users accounted for ~64% (3,657,934). 
 
-### Ride Durations
+**Ride Durations**
 
- - Casual member rides lasted longer than annual member rides. On average, casual user rides lasted over 19 minutes while annual member rides lasted just under 12 minutes.
+ - On average, casual user rides lasted over 19 minutes while annual member rides lasted just under 12 minutes.
 
 ### Bike Types
 
