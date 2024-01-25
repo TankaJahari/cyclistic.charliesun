@@ -136,17 +136,17 @@ For this analysis, I used Tableau Public to visualize the findings from our data
  - Use and promote referral incentives. Since so many annual members use Cyclistic to commute to work, they may have colleagues and co-workers who use the service casually, that could be converted into annual members by seeing Cyclistic as an option for commuting. For example: three free months of membership for both parties if a new user is referred and signs up for an annual membership.
 
 
-### Give annual members priority access to electric bikes 
+### Give annual members some kind of priority access to electric bikes 
 
- - As mentioned earlier, our data showed that casual users noticeably preferred electric bikes over classic bikes. 
+ - As mentioned earlier, our data showed that casual users noticeably preferred electric bikes over classic bikes. This could be due to the ease and speed of rides with electric bikes. 
    
- - Aligning with the part of my first recommendation of marketing Cyclistic's electric bikes, giving priority access to new annual members at high traffic times/locations could incentivize casual users to purchase annual memberships.
+ - Aligning with the part of my first recommendation of marketing Cyclistic's electric bikes for commuting, giving priority access to new annual members at high traffic times/locations could incentivize casual users to purchase annual memberships.
 
 
 ### Focus marketing and advertising resources on high casual user traffic times and locations
 
  - Casual users used Cyclistic more during weekend days and spring and summer months. Since these are high traffic periods for casual users, there is more visibility for advertisements/marketing. 
    
-  - Utilize advertisements across various digital channels to advertise when users are searching for/browsing through Chicago’s top tourist locations, restaurants, etc., especially for locations near Chicago's lake shore, where casual users showed a high volume of Cyclistic rides.
+  - Utilize advertisements across various channels (physical and digital) to advertise to casual users. If casual users are searching for/browsing through Chicago’s top tourist locations, restaurants, etc., ensure advertising/marketing visibility on digital platforms. Additionally, increase the presence of physical advertisements locations near Chicago's lake shore, where casual users showed a high volume of Cyclistic rides.
 
  - If a casual user is using a parking app in a busy or 'difficult to drive' location, advertise nearby Cyclistic stations so they might think *“Hmmm, next time, I could just use Cyclistic and bike from/to here. I could save on gas and parking AND see more of Chicago”*.
