@@ -50,7 +50,7 @@ For this analysis, I used Tableau Public to visualize the findings from our data
 
    
 <p align="center">  
-<img src= "https://github.com/thecharliesun/cyclistic.charliesun/blob/main/total%20rides%20per%20bike%20type.PNG?raw=true">
+<img src= "(https://github.com/thecharliesun/cyclistic.charliesun/blob/main/Visualizations/Rides%20per%20Bike%20Type.PNG?raw=true)">
 </p>
 
 **Hour of Day**
