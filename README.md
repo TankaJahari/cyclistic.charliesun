@@ -17,7 +17,9 @@ The data used for this analysis is Cyclistic's ride data from 2023.
   
 ## Data Sources, Cleaning, and Manipulation
 
- Our [data](https://divvy-tripdata.s3.amazonaws.com/index.html) comes directly from the primary source: Cyclistic Bikeshare services (Divvy). The data is open and made available to use by [this license agreement](https://divvybikes.com/data-license-agreement). It comes in the form of 12 .csv files, one for each month of 2023.
+ Our [data](https://divvy-tripdata.s3.amazonaws.com/index.html) comes directly from the primary source: Cyclistic Bikeshare services (Divvy). The data is open and made available to use by [this license agreement](https://divvybikes.com/data-license-agreement). 
+ 
+ It comes in the form of 12 .csv files, one for each month of 2023.
 
   I chose to use SQL in BigQuery to gather, clean, and analyze our data. Because of the quantity of data (nearly 6 million rows with 13 columns), a spreadsheet tool would be quite unwieldy to use for this task.
   
