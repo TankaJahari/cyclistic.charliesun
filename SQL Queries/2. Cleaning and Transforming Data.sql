@@ -43,3 +43,19 @@ MAX(ride_duration_minutes) AS max,
 user_type
 FROM `cyclistic.total_data_2023_v2`
 GROUP BY user_type
+
+  
+--RESULTS: The max ride duration for casual users was 98,489.07 minutes (roughly 68 days). The minimum was -16,656.52 minutes. Examining the data shows that these are outliers. These would skew results so we need to omit them. For this analysis, I'm excluding rides where the duration = 0 OR longer than 480 minutes. Rides like these are not regular use-cases for Cyclistic users, and shouldn't apply to our analysis. I will note in the visuazliations and presentations of this analysis that said datapoints are being excluded. #outliers  
+
+--We have negative trip durations which at first glance seem omittable ("negative time??"), but my logic tells me that the start/end times were flipped due to a technical error. We can still get usable ride durations from these.
+--Converting negative ride durations to positive using their absolute values. Omitting rides that lasted 480 minutes or more. #outliers
+CREATE TABLE `cyclistic.total_data_2023_v4` AS(
+SELECT 
+ride_id, bike_type, started_at, ended_at, user_type, start_lat, start_lng, end_lat, end_lng,
+ABS(ride_duration_minutes) AS ride_duration_minutes,
+day_of_week,month_of_ride,hour_of_ride,start_station_name, end_station_name, start_station_id, end_station_id
+FROM `cyclistic.total_data_2023_v2`
+WHERE started_at != ended_at 
+AND 
+ABS(ride_duration_minutes) < 480
+)
