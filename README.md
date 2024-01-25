@@ -172,7 +172,7 @@ I identified approximately 550,000 null values for station names/IDs among annua
 
 Annual members exhibit slightly more missing data in start_station compared to end_station, approximately 0.4% more. Ccasual users have fewer null values in start_station data, with a difference of about 14.6%. 
 
---While the pattern may not directly impact our current analysis, it could be relevant for future considerations.
+While the pattern may not directly impact our current analysis, it could be relevant for future considerations.
 
 ### #outliers
 
