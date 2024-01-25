@@ -1,3 +1,5 @@
+
+
 --First, I uploaded each month's .csv file to BigQuery (data from https://divvy-tripdata.s3.amazonaws.com/index.html) 
 
 --The datasets all have identical columns, so we can aggregate them into one dataset for the entire year's trip data. 
@@ -210,8 +212,3 @@ start_lat, start_lng,
 user_type
 FROM `cyclistic.total_data_2023_v4`
 )
-
---END
-
-
-
