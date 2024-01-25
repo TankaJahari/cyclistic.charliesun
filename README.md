@@ -145,10 +145,8 @@ For this analysis, I used Tableau Public to visualize the findings from our data
 
 ### Focus marketing and advertising resources on high casual user traffic times and locations
 
-- Utilize advertisements on various digital channels (search engine ads, social media platforms) to advertise Cyclistic when users are searching for or browsing through Chicago’s top tourist locations, restaurants, etc.
-  
- - Casual users used Cyclistic more on the weekend days and in the spring and summer months. Since these are high traffic periods for casual users, there would be more visibility for advertisements/marketing. There should be value to gain from focusing advertising onto these times.
+ - Casual users used Cyclistic more during weekend days and spring and summer months. Since these are high traffic periods for casual users, there is more visibility for advertisements/marketing. 
+   
+  - Utilize advertisements across various digital channels to advertise when users are searching for/browsing through Chicago’s top tourist locations, restaurants, etc., especially for locations near Chicago's lake shore, where casual users showed a high volume of Cyclistic rides.
 
  - If a casual user is using a parking app in a busy or 'difficult to drive' location, advertise nearby Cyclistic stations so they might think *“Hmmm, next time, I could just use Cyclistic and bike from/to here. I could save on gas and parking AND see more of Chicago”*.
-
-   
