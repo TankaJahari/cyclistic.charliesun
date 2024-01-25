@@ -61,6 +61,8 @@ With our data cleaned and ready to go, I ran multiple queries to create individu
   
 
 
+
+
 ## Supporting Visualizations and Key Findings
 
 For this analysis, I used Tableau Public to visualize the findings from our data in a dashboard with graphs, charts and maps.
