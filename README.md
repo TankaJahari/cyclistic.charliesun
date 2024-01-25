@@ -155,3 +155,11 @@ For this analysis, I used Tableau Public to visualize the findings from our data
   - Utilize advertisements across various channels (physical and digital) to advertise to casual users. If casual users are searching for/browsing through Chicago’s top tourist locations, restaurants, etc., ensure advertising/marketing visibility on digital platforms. Additionally, increase the presence of physical advertisements locations near Chicago's lake shore, where casual users showed a high volume of Cyclistic rides.
 
  - If a casual user is using a parking app in a busy or 'difficult to drive' location, advertise nearby Cyclistic stations so they might think *“Hmmm, next time, I could just use Cyclistic and bike from/to here. I could save on gas and parking AND see more of Chicago”*.
+
+## Conclusion
+
+My analysis revealed both differences and similarities in how casual users and annual members ride Cyclistic bikes. Casual users seem to favor Cyclistic for recreational purposes based on their usage data but are also likely using Cyclistic for commuting and transportation, though not as frequently or regularly as annual members. 
+
+
+A combination of promoting Cyclistic’s fleet of electric bikes, using Cyclistic to commute, and focusing marketing and advertising resources on peak casual usage periods would make for a powerful campaign to sway casual users into becoming subscribing annual members.
+
