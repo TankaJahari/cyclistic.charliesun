@@ -1,4 +1,4 @@
---From `total_data_2023_v4`, I will run different queries to aggregate data into new tables by attributes like month, day, etc. These individual tables will be smaller files and easy to work with in Tableau.
+--From `total_data_2023_v3`, I will run different queries to aggregate data into new tables by attributes like month, day, etc. These individual tables will be smaller files and easy to work with in Tableau.
 
 --Creating a table with total rides by user_type
 CREATE TABLE `cyclistic.total` AS(
@@ -6,7 +6,7 @@ SELECT
 COUNT(*) AS total_rides,
 AVG(ride_duration_minutes) AS avg_ride_duration,
 user_type
-FROM `cyclistic.total_data_2023_v4`
+FROM `cyclistic.total_data_2023_v3`
 GROUP BY user_type
 )
 
@@ -25,7 +25,7 @@ CASE
   WHEN day_of_week = 5 THEN 'Thursday'
   WHEN day_of_week = 6 THEN 'Friday'
   WHEN day_of_week = 7 THEN 'Saturday' END AS day_of_week
-FROM `cyclistic.total_data_2023_v4`
+FROM `cyclistic.total_data_2023_v3`
 GROUP BY day_of_week, user_type
 ORDER BY
 CASE day_of_week
@@ -57,7 +57,7 @@ CASE
   WHEN month_of_ride = 10 THEN 'October'
   WHEN month_of_ride = 11 THEN 'November'
   WHEN month_of_ride = 12 THEN 'December' END AS month_of_ride
-FROM `cyclistic.total_data_2023_v4`
+FROM `cyclistic.total_data_2023_v3`
 GROUP BY month_of_ride, user_type
 ORDER BY
 CASE month_of_ride
@@ -81,7 +81,7 @@ SELECT
   COUNT(*) AS ride_count,
   hour_of_ride,
   user_type,
-FROM `cyclistic.total_data_2023_v4`
+FROM `cyclistic.total_data_2023_v3`
 GROUP BY
   hour_of_ride, user_type
 ORDER BY 
@@ -93,7 +93,7 @@ CREATE TABLE `cyclistic.biketype` AS(
 SELECT bike_type,
 user_type,
 COUNT(*) as ride_count,
-FROM `cyclistic.total_data_2023_v4` 
+FROM `cyclistic.total_data_2023_v3` 
 GROUP BY bike_type, user_type
 )
 
@@ -101,7 +101,7 @@ GROUP BY bike_type, user_type
 CREATE TABLE `cyclistic.biketype_duration` AS(
 SELECT bike_type,
 AVG(ride_duration_minutes) AS avg_duration
-FROM `cyclistic.total_data_2023_v4`
+FROM `cyclistic.total_data_2023_v3`
 GROUP BY bike_type
 )
 
@@ -110,7 +110,7 @@ CREATE TABLE `cyclistic.biketype_users_duration` AS(
 SELECT bike_type,
 user_type,
 AVG(ride_duration_minutes) AS avg_duration
-FROM `cyclistic.total_data_2023_v4`
+FROM `cyclistic.total_data_2023_v3`
 GROUP BY bike_type, user_type
 )
 
@@ -119,5 +119,5 @@ CREATE TABLE `cyclistic.start_coordinates` AS(
   SELECT
 start_lat, start_lng, 
 user_type
-FROM `cyclistic.total_data_2023_v4`
+FROM `cyclistic.total_data_2023_v3`
 )
