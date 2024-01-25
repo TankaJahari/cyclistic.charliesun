@@ -25,8 +25,8 @@ My goal is to analyze and discover key insights as to how casual riders and annu
   I chose to use SQL in BigQuery to gather, clean, and analyze our data. Because of the quantity of data (nearly 6 million rows with 13 columns), a spreadsheet tool would be quite unwieldy to use for this task.
 
 ### Combining Data
-
-I downloaded all 12 .csv files from our data source. Next, I uploaded each file to BigQuery. I aggregated identical columns from all months to create one dataset to facilitate comprehensive analysis for the whole year, and named the table `tota_data_2023` All of my SQL code can be found in the 'SQL Queries' folder of this repository.
+*All SQL code can be found in the 'SQL Queries' folder of this repository*
+I downloaded all 12 .csv files from our data source. Next, I uploaded each file to BigQuery. I aggregated identical columns from all months to create one dataset to facilitate comprehensive analysis for the whole year, and named the table `tota_data_2023`.
 
 [*Link to related SQL Query*](https://github.com/thecharliesun/cyclistic.charliesun/blob/main/SQL%20Queries/1.%20Combining%20Data.sql) 
 
