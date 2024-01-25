@@ -2,14 +2,14 @@
 
 ## Business Task
 
-  In this case study, I am tasked with finding key differences in how annual members and casual users use Cyclistic. These differences will be used to provide insights and recommendations to our stakeholders to help convert casual users into annual members.
+  In this case study, I am tasked with finding key differences in how annual members and casual users use Cyclistic bikeshare. These differences will be used to provide insights and recommendations to our stakeholders to help convert casual users into annual members.
 
   
 ## Data Sources, Data Cleaning, and Manipulation
 
  [Our data](https://divvy-tripdata.s3.amazonaws.com/index.html) comes directly from the primary source: Cyclistic Bikeshare services (Divvy). The data is open and made available to use by [this license agreement](https://divvybikes.com/data-license-agreement). It comes in the form of 12 .csv files, one for each month of 2023.
 
-  I chose to use SQL in BigQuery to gather, clean, and analyze our data. Because there are 12 large datasets that total nearly 6 million rows with 13 columns, a spreadsheet tool would be quite unwieldy to use for this task.
+  I chose to use SQL in BigQuery to gather, clean, and analyze our data. Because of the quantity of data (nearly 6 million rows with 13 columns), a spreadsheet tool would be quite unwieldy to use for this task.
   
   [Click here for full SQL Query](https://github.com/TankaJahari/cyclistic.charliesun/blob/main/Data%20Cleaning%20and%20Manipulation.sql)
 
@@ -20,7 +20,7 @@
 
 ### Total Rides
 
- - Of the 5,708,202 rides in our analysis, casual users accounted for 2,050,268 (~36%), and annual users accounted for 3,657,934 (~64%).
+ - Of the 5,708,202 rides in our analysis, casual users accounted for ~36% (2,050,268) of the total, and annual users accounted for ~64% (3,657,934). 
 
 ### Ride Durations
 
@@ -28,7 +28,7 @@
 
 ### Bike Types
 
- - There are three bike types in our data: classic, electric, and docked. Docked bikes were used exclusively by casual users and made up 3.6% of their total rides. 
+ - There are three bike types in our data: classic, electric, and docked. Docked bikes were used exclusively by casual users, and only made up 3.6% of their total rides. 
 
  - Casual users had significantly more rides with electric bikes than classic bikes: 870,859 classic bike rides, 1,103,644 electric bike rides, 75,765 docked bike rides.
 
@@ -36,9 +36,11 @@
 
  - Rides with electric bikes were shorter than rides with classic bikes for both usertypes.
 
+ - Rides with docked bike lasted the longest on average, at nearly 45 minutes.
+
 ### Hour of Day
 
- - Visualizing the data for rides per hour of day showed both similarities and differences between the two user types.
+ - Visualizing the data for rides per hour of day showed both similarities as well as differences in the two user types.
 
  - For casual users, the ride count started low in the morning but continuously rose throughout the day and **peaked at 5PM** before a decline into the nighttime hours.
 
@@ -58,32 +60,32 @@
 
 ### Ride Locations
 
- - Using start location long/lat coordinates as geographical data points for rides, our visualization showed that there was a higher concentration of rides for casual users along the lake shore compared to annual members.
+ - Using the latitude and longtitude coordinates of ride start locations as geographical data points for rides, our visualization showed that there was a higher concentration of rides for casual users near the lake shore compared to annual members.
 
- - While the density map does show a concentration of rides near the lake shore for annual members, it covers less area and is less dense.
+ - While the annual members' density map does show a concentration of rides near the lake shore, it spans less area and is less dense.
 
 ## Summary of Analysis
 
- - Casual users, compared to annual members, likely utilized Cyclistic more for recreation and leisure based on their **longer average ride durations, peak usage days (weekends), preference for electric bikes, and ride locations**. 
+ - Casual users, compared to annual members, likely utilized Cyclistic more for recreation and leisure based on their **longer average ride durations, peak usage days (weekends), preference for electric bikes, and ride locations**. Casual users were also the sole users of docked bikes.
 
- - Annual members on the other hand, likely used Cyclistic more for commuting and as a general means for transportation. This observation is based on their **peak usage days and hours (weekdays; 8AM and 5PM), shorter average ride durations, and total volume of rides**. Annual members showed a relatively negligible difference in bike type preference, so they 
+ - Annual members on the other hand, likely used Cyclistic more for commuting and as a general means for transportation. This observation is based on their **peak usage days and hours (weekdays; 8AM and 5PM), shorter average ride durations, and total volume of rides**. Annual members showed a relatively negligible difference in bike type preference.
 
 
- - However, our data does show some simliarities. Aside from the predictable outcome that both user types ride Cyclistic bikes more during the spring and summer months due to Chicago's climate, many casual users are likely also using Cyclistic for at least part of their commutes. While casual users did not have a peak hour at 8AM, their *highest usage hour was also at 5PM*. This suggests that casual users may be opting to use Cyclistic when their workday is over, and are in less of a rush. 
+ - However, our data did show some simliarities between the user types. Aside from the identical trend of rides in the spring and summer months, many casual users are likely also using Cyclistic for at least part of their commutes. While casual users did not have a peak hour at 8AM, their *highest usage hour was still at 5PM*. This may suggest that casual users are opting to use Cyclistic when their workday is over, and are in less of a rush than in the morning. 
 
 
    
 ## Recommendations for Stakeholders
 
 
-### 1. Get casual users to think about using Cyclistic for commuting more, using electric bikes in particular. Our data shows that casual users may already be using Cyclistic to commute after work. 
+### Get casual users to think about using Cyclistic for commuting more, with a focus on electric bikes.
 
  - The data for casual users showed that many may already be using Cyclistic to commute *from*, but not *to* work. This could be for many reasons, but a logical guess would be that they are in a hurry to get to work, or don't want to show up sweaty and out of breath in business attire, thus opt for traditional modes of transportation. Since casual users showed a high usage rate of electric bikes, we could specifically market using electric bikes to get to work. Electric bikes are a great option for users wanting to fit in some exercise on the way to work while not exerting too much energy. 
    
  - Create/use referral incentives. Since many annual members use Cyclistic to commute, they may have colleagues and co-workers who use the service casually, that could be converted into annual members by seeing Cyclistic as an option for commuting. For example, a free half or quarter year of membership for both users if the new user signs up for an annual membership.
-   
 
-### 2. Increase marketing spending for the lake shore and other popular tourist locations in Chicago as well as less-known station locations.
+
+### Increase marketing spending that targets the lake shore and other popular tourist locations in Chicago.
 
  - If a casual user is using a parking app in a busy or “difficult to drive” location, advertise nearby Cyclistic stations so they might think “hmm, next time, I could just use Cyclistic and bike from/to here”.
    
