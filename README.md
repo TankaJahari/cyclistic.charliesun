@@ -1,4 +1,4 @@
-# Cyclistic Case Study 
+# Case Study - Cyclistic Bikeshare Data Analysis 
 
 ## Introduction
 
@@ -21,8 +21,31 @@ My goal is to analyze and discover key insights as to how casual riders and annu
  It comes in the form of 12 .csv files, one for each month of 2023.
 
   I chose to use SQL in BigQuery to gather, clean, and analyze our data. Because of the quantity of data (nearly 6 million rows with 13 columns), a spreadsheet tool would be quite unwieldy to use for this task.
+
+### Combining Data
+[Click here for SQL Query](https://github.com/thecharliesun/cyclistic.charliesun/blob/main/SQL%20Queries/1.%20Combining%20Data.sql) 
+
+I downloaded all 12 .csv files from our data source. Next, I uploaded each file to BigQuery. I aggregated identical columns from all months to create one dataset to facilitate comprehensive analysis for the whole year.
+
+### Cleaning and Transforming Data
+[Click here for SQL Query](https://github.com/thecharliesun/cyclistic.charliesun/blob/main/SQL%20Queries/2.%20Cleaning%20and%20Transforming%20Data.sql)
+
+To ensure data integrity, I first ran a query to count all duplicate records in our dataset. If the query returned anything but 0, I would run a query to select the actual duplicate records and examine and make a decision on omitting them.
+
+
+I checked for null values, which were found exclusively in the start_station and end_station columns. This would limit our analysis relating to start stations, so we will use other metrics. 
+
+
+I created a new dataset, `total_data_2023_v2` with calculated columns to make observations on data points like each ride's duration, hour of the day, day of week, and month.
+
+
+Examining some summary statistics like minimum, maximum, and average, on ride durations showed that we have potential outliers in our data that could skew the results of analyses.
+
+
+### 
+
+  [Click here for SQL Query](https://github.com/thecharliesun/cyclistic.charliesun/blob/main/SQL%20Queries/3.%20Analyzing%20and%20Aggregating%20Data.sql)
   
-  [Click here for full SQL Query](https://github.com/TankaJahari/cyclistic.charliesun/blob/main/Data%20Cleaning%20and%20Manipulation.sql) 
   
   
   (*Please Note: For null values and statistical outliers in my analysis, I've included (#) tags to reference my 'comments' file in the this repository that provides a bit of background information and explanation.*)
