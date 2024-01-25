@@ -163,3 +163,23 @@ My analysis revealed both differences and similarities in how casual users and a
 
 A combination of promoting Cyclistic’s fleet of electric bikes, using Cyclistic to commute, and focusing marketing and advertising resources on peak casual usage periods would make for a powerful campaign to sway casual users into becoming subscribing annual members.
 
+
+## Additional Comments
+
+### #nulls
+
+I identified approximately 550,000 null values for station names/IDs among annual members and around 350,000 for casual users.
+
+Annual members exhibit slightly more missing data in start_station compared to end_station, approximately 0.4% more. Ccasual users have fewer null values in start_station data, with a difference of about 14.6%. 
+
+--While the pattern may not directly impact our current analysis, it could be relevant for future considerations.
+
+### #outliers
+
+I examined ride durations and found that 97.5% of rides last less than an hour (5,577,916 out of 5,718,880). It's not at all unlikely for users to use their bikes for longer than one hour, so I don't want to simply omit all rides past one hour.
+
+To filter out extreme cases, I implemented an eight-hour (480 minutes) cutoff, affecting only 10,674 rides (0.19%). Some of these rides extended to *multiple weeks*, which would greatly skew our analysis.
+
+I acknowledge that this is not the ideal or perfect method to determine outliers, and there are scientific ways to more precisely do so, but the sheer volume of observations (almost 6 million) led to my decision to use some more pragmatic decisions for this analysis.
+
+I played with methods like z-scores, interquartile range, and using the median absolute deviation, but I will first need to refresh and supplement my stats skills to effectively use these in future analyses.
