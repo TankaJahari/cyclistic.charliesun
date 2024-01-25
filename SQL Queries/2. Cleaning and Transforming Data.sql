@@ -1,48 +1,3 @@
---I downloaded each the dataset for each month in 2023 from this source: https://divvy-tripdata.s3.amazonaws.com/index.html 
-
---Then, I uploaded each month's .csv file to BigQuery.
-
---The datasets all have identical columns, so we can aggregate them into one dataset for the entire year's trip data. 
-
---Created new table as 'cyclistic.total_data_2023' using UNION ALL function to return all rows, and will manually check for duplicates.
-CREATE TABLE `cyclistic.total_data_2023` AS ( 
- SELECT * 
- FROM `crack-mariner-411305.cyclistic.cyclistic_2023_01`
- UNION ALL
- SELECT *
- FROM `crack-mariner-411305.cyclistic.cyclistic_2023_02`
- UNION ALL
- SELECT *
- FROM `crack-mariner-411305.cyclistic.cyclistic_2023_03`
- UNION ALL
- SELECT *
- FROM `crack-mariner-411305.cyclistic.cyclistic_2023_04`
- UNION ALL
- SELECT *
- FROM `crack-mariner-411305.cyclistic.cyclistic_2023_05`
- UNION ALL
- SELECT *
- FROM `crack-mariner-411305.cyclistic.cyclistic_2023_06`
- UNION ALL
- SELECT *
- FROM `crack-mariner-411305.cyclistic.cyclistic_2023_07`
- UNION ALL
- SELECT *
- FROM `crack-mariner-411305.cyclistic.cyclistic_2023_08`
- UNION ALL
- SELECT *
- FROM `crack-mariner-411305.cyclistic.cyclistic_2023_09`
- UNION ALL
- SELECT *
- FROM `crack-mariner-411305.cyclistic.cyclistic_2023_10`
- UNION ALL
- SELECT *
- FROM `crack-mariner-411305.cyclistic.cyclistic_2023_11`
- UNION ALL
- SELECT *
- FROM `crack-mariner-411305.cyclistic.cyclistic_2023_12`
-)
-
 --Checking for duplicate ride_ids in new dataset. Duplicate rows would need to addressed since ride_id is specific to each ride. 
 --RESULTS: The query returned 0 duplicate rows.
 SELECT COUNT(ride_id) - COUNT(Distinct(ride_id)) AS duplicate_ride_id_count
@@ -80,3 +35,26 @@ EXTRACT (MONTH FROM started_at) AS month_of_ride,
 EXTRACT (HOUR FROM started_at) AS hour_of_ride,
 start_station_name, end_station_name, start_station_id, end_station_id
 FROM `cyclistic.total_data_2023`
+
+ --Examining the minimum, maximum, and average ride durations for each user type:
+SELECT AVG(ride_duration_minutes) AS avg,
+MIN(ride_duration_minutes) AS min,
+MAX(ride_duration_minutes) AS max, 
+user_type
+FROM `cyclistic.total_data_2023_v2`
+GROUP BY user_type
+
+--RESULTS: The max ride duration for casual users was 98,489.07 minutes (roughly 68 days). The minimum was -16,656.52 minutes. Examining the data shows that these are outliers. These would skew results so we need to omit them. For this analysis, I'm excluding rides where the duration = 0 OR longer than 480 minutes. Rides like these are not regular use-cases for Cyclistic users, and shouldn't apply to our analysis. I will note in the visuazliations and presentations of this analysis that said datapoints are being excluded. #outliers  
+
+--We have negative trip durations which at first glance seem omittable ("negative time??"), but my logic tells me that the start/end times were flipped due to a technical error. We can still get usable ride durations from these.
+--Converting negative ride durations to positive using their absolute values. Omitting rides that lasted 480 minutes or more. #outliers
+CREATE TABLE `cyclistic.total_data_2023_v4` AS(
+SELECT 
+ride_id, bike_type, started_at, ended_at, user_type, start_lat, start_lng, end_lat, end_lng,
+ABS(ride_duration_minutes) AS ride_duration_minutes,
+day_of_week,month_of_ride,hour_of_ride,start_station_name, end_station_name, start_station_id, end_station_id
+FROM `cyclistic.total_data_2023_v2`
+WHERE started_at != ended_at 
+AND 
+ABS(ride_duration_minutes) < 480
+)
