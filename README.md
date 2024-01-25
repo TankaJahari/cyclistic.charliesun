@@ -11,6 +11,9 @@ Cyclistic's finance analysts have found that annual members are much more profit
 My goal is to analyze and discover key insights as to how casual riders and annual members use Cyclistic differently. I will use these insights to provide marketing strategy recommendations that will help convert casual users into annual members. For these recommendations to be approved, they need to be supported with compelling data findings and visualizations.
 
 
+The data used for this analysis is Cyclistic's ride data from 2023.
+
+
   
 ## Data Sources, Cleaning, and Manipulation
 
