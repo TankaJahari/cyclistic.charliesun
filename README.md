@@ -35,6 +35,7 @@ For this analysis, I used Tableau Public to visualize the findings from our data
 
 **Bike Types**
 
+<img src= "https://github.com/thecharliesun/cyclistic.charliesun/blob/main/total%20rides%20per%20bike%20type.PNG?raw=true>
  - There are three bike types in our data: classic, electric, and docked. 
 
  - Casual users had significantly more rides with electric bikes than classic bikes: 870,859 classic bike rides, 1,103,644 electric bike rides, and 75,765 docked bike rides. Docked bikes were used exclusively by casual users, but only accounted for 3.6% of their total rides.
