@@ -1,6 +1,6 @@
 # Cyclistic Case Study 
 
-## Introduction:
+## Introduction
 
   In this case study, I am playing the role of a junior data analyst who is a member of the marketing analyst team for a fictional bike-share company in Chicago called Cyclistic.
 
