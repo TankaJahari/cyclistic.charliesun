@@ -48,9 +48,8 @@ For this analysis, I used Tableau Public to visualize the findings from our data
 
  - Annual members used classic and electric bikes nearly evenly: 1,816,875 classic bike rides vs. 1,841,059 electric bike rides.
 
-   
 <p align="center">  
-<img src= "(https://github.com/thecharliesun/cyclistic.charliesun/blob/main/Visualizations/Rides%20per%20Bike%20Type.PNG?raw=true)">
+<img src= "https://github.com/thecharliesun/cyclistic.charliesun/blob/main/Visualizations/Rides%20per%20Bike%20Type.PNG?raw=true" height="300">
 </p>
 
 **Hour of Day**
