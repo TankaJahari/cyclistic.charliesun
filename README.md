@@ -97,7 +97,7 @@ For this analysis, I used Tableau Public to visualize the findings from our data
 
 **Ride Locations**
 
- - Using the latitude and longtitude coordinates of ride start locations as geographical data points for rides, our visualization showed that there was a higher concentration of rides for casual users near the lake shore compared to annual members.
+ - Using the latitude and longtitude coordinates of ride start locations as geographical data points for rides, our visualization showed that there was a higher concentration of casual user rides near the lake shore compared to annual members.
 
 <p align="center">  
 <img src= "https://github.com/thecharliesun/cyclistic.charliesun/blob/main/Visualizations/Casual%20Ride%20Locations.PNG?raw=true">
@@ -122,7 +122,7 @@ For this analysis, I used Tableau Public to visualize the findings from our data
 
 
    
-## Recommendations for Our Stakeholders
+## Recommendations for Stakeholders
 
 
 ### Get casual users to think of Cyclistic for commuting more often
