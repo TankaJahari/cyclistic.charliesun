@@ -27,7 +27,11 @@ For this analysis, I used Tableau Public to visualize the findings from our data
 ### Key Findings:
 **Total Rides**
 
- - Of the 5,708,202 rides in our analysis, casual users accounted for ~36% (2,050,268), annual users accounted for ~64% (3,657,934). 
+ - Of the 5,708,202 rides in our analysis, casual users accounted for ~36% (2,050,268), annual users accounted for ~64% (3,657,934).
+<p align="center">  
+<img src= "https://github.com/thecharliesun/cyclistic.charliesun/blob/main/Visualizations/Total%20Rides.PNG?raw=true">
+</p>
+
 
 **Ride Durations**
 
