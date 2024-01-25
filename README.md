@@ -7,7 +7,7 @@
   I will use these findings to provide insights and recommendations to our stakeholders to achieve their goal of convert casual users into annual members through digital marketing.
 
   
-## Data Sources, Data Cleaning, and Manipulation
+## Data Sources, Cleaning, and Manipulation
 
  Our [data](https://divvy-tripdata.s3.amazonaws.com/index.html) comes directly from the primary source: Cyclistic Bikeshare services (Divvy). The data is open and made available to use by [this license agreement](https://divvybikes.com/data-license-agreement). It comes in the form of 12 .csv files, one for each month of 2023.
 
