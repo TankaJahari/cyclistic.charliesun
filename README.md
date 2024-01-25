@@ -155,7 +155,7 @@ For this analysis, I used Tableau Public to visualize the findings from our data
 </p>
 
 
-## Summary of Analysis
+# Summary of Analysis
 
  - Casual users, compared to annual members, likely utilized Cyclistic more for recreation and leisure based on their **longer average ride durations, peak usage days (weekends), preference for electric bikes, and ride locations**. Casual users also used Cyclistic during the nighttime hours more than annual members (proportionally).
 
@@ -166,7 +166,7 @@ For this analysis, I used Tableau Public to visualize the findings from our data
 
 
    
-## Recommendations for Stakeholders
+# Recommendations for Stakeholders
 
 
 ### Get casual users to think of Cyclistic for commuting more often
@@ -195,7 +195,7 @@ For this analysis, I used Tableau Public to visualize the findings from our data
 
  - If a casual user is using a parking app in a busy or 'difficult to drive' location, advertise nearby Cyclistic stations so they might think *“Hmmm, next time, I could just use Cyclistic and bike from/to here. I could save on gas and parking AND see more of Chicago”*.
 
-## Conclusion
+# Conclusion
 
 My analysis revealed both differences and similarities in how casual users and annual members ride Cyclistic bikes. Casual users seem to favor Cyclistic for recreational purposes based on their usage data but are also likely using Cyclistic for commuting and transportation, though not as frequently or regularly as annual members. 
 
