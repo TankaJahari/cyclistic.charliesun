@@ -14,7 +14,9 @@ My goal is to analyze and discover key insights as to how casual riders and annu
 
 
   
-## Data Sources, Cleaning, and Manipulation
+## Data Source, Cleaning, and Manipulation
+
+### Data Source
 
  Our [data](https://divvy-tripdata.s3.amazonaws.com/index.html) comes directly from the primary source: Cyclistic Bikeshare services (Divvy). The data is open and made available to use by [this license agreement](https://divvybikes.com/data-license-agreement). 
  
