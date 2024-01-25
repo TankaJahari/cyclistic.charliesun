@@ -44,6 +44,13 @@ user_type
 FROM `cyclistic.total_data_2023_v2`
 GROUP BY user_type
 
+--I'm suspecting that there might be rides with durations = 0. These could not be rides that actually happened, since their start and end time would have to be be exactly the same.
+--This query returns a result of 997 rides with durations = 0.
+SELECT 
+COUNT(*) AS zero_rides
+FROM `cyclistic.total_data_2023_v3`
+WHERE ride_duration_minutes = 0
+
   
 --RESULTS: The max ride duration for casual users was 98,489.07 minutes (roughly 68 days). The minimum was -16,656.52 minutes. Examining the data shows that these are outliers. These would skew results so we need to omit them. For this analysis, I'm excluding rides where the duration = 0 OR longer than 480 minutes. Rides like these are not regular use-cases for Cyclistic users, and shouldn't apply to our analysis. I will note in the visuazliations and presentations of this analysis that said datapoints are being excluded. #outliers  
 
