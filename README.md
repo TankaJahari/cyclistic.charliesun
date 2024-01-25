@@ -1,6 +1,6 @@
 # Case Study - Cyclistic Bikeshare Data Analysis 
 
-## Introduction
+# Introduction
 
   In this case study, I am playing the role of a junior data analyst, a member of the marketing analyst team for a fictional bike-share company in Chicago called Cyclistic.
 
@@ -14,7 +14,7 @@ My goal is to analyze and discover key insights as to how casual riders and annu
 
 
   
-## Data Source, Cleaning, and Manipulation
+# Data Source, Cleaning, and Manipulation
 (*All SQL code files can be found in the 'SQL Queries' folder of this repository*)
 
 ### Data Source
@@ -63,7 +63,7 @@ With our data cleaned and ready to go, I ran multiple queries to create individu
 
 
 
-## Supporting Visualizations and Key Findings
+# Supporting Visualizations and Key Findings
 
 For this analysis, I used Tableau Public to visualize the findings from our data in a dashboard with graphs, charts and maps.
 
