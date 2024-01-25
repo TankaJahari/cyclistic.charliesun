@@ -80,7 +80,7 @@ start_station_name, end_station_name, start_station_id, end_station_id
 FROM `cyclistic.total_data_2023`
 )
 
---Examining at the minimum, maximum, and average ride durations for each user type:
+--Examining the minimum, maximum, and average ride durations for each user type:
 SELECT AVG(ride_duration_minutes) AS avg,
 MIN(ride_duration_minutes) AS min,
 MAX(ride_duration_minutes) AS max, 
@@ -90,7 +90,7 @@ GROUP BY user_type
 
 --RESULTS: The max ride duration for casual users was 98,489.07 minutes (roughly 68 days). The minimum was -16,656.52 minutes. Examining the data shows that these are outliers. These would skew results so we need to omit them. For this analysis, I'm excluding rides where the duration = 0 OR longer than 480 minutes. Rides like these are not regular use-cases for Cyclistic users, and shouldn't apply to our analysis. I will note in the visuazliations and presentations of this analysis that said datapoints are being excluded. #outliers  
 
---We have negative trip durations which at first glance seem omittable (negative time???), but my logic tells me that the start/end times were flipped due to a technical error. We can still get usable ride durations from these.
+--We have negative trip durations which at first glance seem omittable ("negative time??"), but my logic tells me that the start/end times were flipped due to a technical error. We can still get usable ride durations from these.
 
 --Converting negative ride durations to positive using their absolute values. Omitting rides that lasted 480 minutes or more. #outliers
 CREATE TABLE `cyclistic.total_data_2023_v4` AS(
@@ -104,7 +104,7 @@ AND
 ABS(ride_duration_minutes) < 480
 )
 
---From `total_data_2023_v4`, I will run different queries to aggregate data into new tables by attributes like month, day, etc. These individual tables will be smaller files and easier to work with in Tableau.
+--From `total_data_2023_v4`, I will run different queries to aggregate data into new tables by attributes like month, day, etc. These individual tables will be smaller files and easy to work with in Tableau.
 
 --Creating a table with total rides by user_type
 CREATE TABLE `cyclistic.total` AS(
@@ -203,7 +203,7 @@ FROM `cyclistic.total_data_2023_v4`
 GROUP BY bike_type, user_type
 )
 
---Average Ride Duration per just bike type
+--Average Ride Duration per bike type
 CREATE TABLE `cyclistic.biketype_duration` AS(
 SELECT bike_type,
 AVG(ride_duration_minutes) AS avg_duration
@@ -227,3 +227,5 @@ start_lat, start_lng,
 user_type
 FROM `cyclistic.total_data_2023_v4`
 )
+
+--END
