@@ -141,7 +141,7 @@ For this analysis, I used Tableau Public to visualize the findings from our data
  - Use and promote referral incentives. Since so many annual members use Cyclistic to commute to work, they may have colleagues and co-workers who use the service casually, that could be converted into annual members by seeing Cyclistic as an option for commuting. For example: three free months of membership for both parties if a new user is referred and signs up for an annual membership.
 
 
-### Give annual members some kind of priority access to electric bikes 
+### Give annual members a form of priority access to electric bikes 
 
  - As mentioned earlier, our data showed that casual users noticeably preferred electric bikes over classic bikes. This could be due to the ease and speed of rides with electric bikes. 
    
