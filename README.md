@@ -1,10 +1,15 @@
 # Cyclistic Case Study 
 
-## Business Task
+## Introduction:
 
-  In this case study, I am tasked with finding insights on how annual members and casual users use Cyclistic bikeshare. 
+  In this case study, I am playing the role of a junior data analyst who is a member of the marketing analyst team for a fictional bike-share company in Chicago called Cyclistic.
+
   
-  I will use these findings to provide insights and recommendations to our stakeholders to achieve their goal of convert casual users into annual members through digital marketing.
+Cyclistic's finance analysts have found that annual members are much more profitable than casual users, and as a result, the director of marketing believes that maximizing the number of annual memberships is key to the future success of the company.
+
+
+My goal is to analyze and discover key insights as to how casual riders and annual members use Cyclistic differently. I will use these insights to provide marketing strategy recommendations that will help convert casual users into annual members. For these recommendations to be approved, they need to be supported with compelling data findings and visualizations.
+
 
   
 ## Data Sources, Cleaning, and Manipulation
