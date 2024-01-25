@@ -31,22 +31,24 @@ For this analysis, I used Tableau Public to visualize the findings from our data
 
 **Ride Durations**
 
- - On average, casual user rides lasted over 19 minutes while annual member rides lasted just under 12 minutes.
-
-**Bike Types**
-
-<img src= "https://github.com/thecharliesun/cyclistic.charliesun/blob/main/total%20rides%20per%20bike%20type.PNG?raw=true">
- - There are three bike types in our data: classic, electric, and docked. 
-
- - Casual users had significantly more rides with electric bikes than classic bikes: 870,859 classic bike rides, 1,103,644 electric bike rides, and 75,765 docked bike rides. Docked bikes were used exclusively by casual users, but only accounted for 3.6% of their total rides.
-
- - Annual members used classic and electric bikes nearly evenly: 1,816,875 classic bike rides vs. 1,841,059 electric bike rides.
-
+ - On average, casual users had longer rides than annual members. Casual user rides lasted over 19 minutes while annual member rides lasted just under 12 minutes.
+ 
  - Overall, rides with electric bikes were roughly four minutes shorter than classic bike rides.
    
  - For annual members, electric bike rides were about one minute shorter than classic bike rides.
    
  - For casual users, electric bike rides were shorter by about nine minutes. 
+
+**Bike Types**
+
+
+ - There are three bike types in our data: classic, electric, and docked. 
+
+ - Casual users had significantly more rides with electric bikes than classic bikes: 870,859 classic bike rides, 1,103,644 electric bike rides, and 75,765 docked bike rides. Docked bikes were used exclusively by casual users, but only accounted for 3.6% of their total rides.
+
+ - Annual members used classic and electric bikes nearly evenly: 1,816,875 classic bike rides vs. 1,841,059 electric bike rides.
+   
+<img src= "https://github.com/thecharliesun/cyclistic.charliesun/blob/main/total%20rides%20per%20bike%20type.PNG?raw=true" width="400">
 
 **Hour of Day**
 
