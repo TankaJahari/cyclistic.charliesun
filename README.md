@@ -39,7 +39,11 @@
 
  - Annual members used classic and electric bikes nearly evenly: 1,816,875 classic bike rides vs. 1,841,059 electric bike rides.
 
- - Overall, rides with electric bikes were roughly four minutes shorter than classic bike rides. For annual members, electric bike rides were only shorter than classic bike rides by about one minute. For casual users, electric bike rides . 
+ - Overall, rides with electric bikes were roughly four minutes shorter than classic bike rides.
+   
+ - For annual members, electric bike rides were about one minute shorter than classic bike rides.
+   
+ - For casual users, electric bike rides were shorter by about nine minutes. 
 
 ### Hour of Day
 
