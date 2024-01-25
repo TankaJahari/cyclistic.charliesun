@@ -164,7 +164,7 @@ For this analysis, I used Tableau Public to visualize the findings from our data
  - Annual members on the other hand, likely used Cyclistic more for commuting and as a general mode transportation. This observation is based on their **peak usage days and hours (weekdays; 8AM and 5PM), shorter average ride durations, and total volume of rides**. These insights indicate that annual members use Cyclistic more frequently  Annual members showed a relatively negligible difference in bike type preference.
 
 
- - However, our data did show some simliarities between the user types. Aside from the identical trend of rides in the spring and summer months, many casual users are likely also using Cyclistic for at least part of their commutes. While casual users did not have the same peak hour at 8AM, their highest usage hour was still 5PM. These metrics suggest that casual users are opting to use Cyclistic when their workday is over, and are in less of a rush compared to the morning. 
+ - However, our data also showed some simliarities between the user types. Aside from the identical trend of rides in the spring and summer months, many casual users are likely also using Cyclistic for at least part of their commutes. While casual users did not have the same peak hour at 8AM, their highest usage hour was still 5PM. These metrics suggest that casual users are opting to use Cyclistic when their workday is over, and are in less of a rush compared to the morning. 
 
 
    
