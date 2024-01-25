@@ -2,7 +2,7 @@
 
 ## Introduction
 
-  In this case study, I am playing the role of a junior data analyst who is a member of the marketing analyst team for a fictional bike-share company in Chicago called Cyclistic.
+  In this case study, I am playing the role of a junior data analyst, a member of the marketing analyst team for a fictional bike-share company in Chicago called Cyclistic.
 
   
 Cyclistic's finance analysts have found that annual members are much more profitable than casual users, and as a result, the director of marketing believes that maximizing the number of annual memberships is key to the future success of the company.
