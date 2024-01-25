@@ -68,7 +68,7 @@ FROM `cyclistic.total_data_2023`
 group by member_casual 
 
 --Creating a new table with new columns calculated from started_at data that lets us observe datapoints like each ride's duration, hour of the day, day of week, and month. 
---Rounding the ride duration to 2 decimal points. Also re-naming and rearranging some columns. 
+--Rounding the ride duration to 2 decimal places. Also re-naming and rearranging some columns. 
 CREATE TABLE `cyclistic.total_data_2023_v2` AS(
   SELECT 
 ride_id, rideable_type AS bike_type, started_at, ended_at, member_casual AS user_type, start_lat, start_lng, end_lat, end_lng,
