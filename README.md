@@ -21,7 +21,7 @@
 
 ## Supporting Visualizations and Key Findings
 
-https://public.tableau.com/views/CyclisticCaseStudy_17060520013410/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+[Link to Tableau Dashboard](https://public.tableau.com/views/CyclisticCaseStudy_17060520013410/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ### Total Rides
 
