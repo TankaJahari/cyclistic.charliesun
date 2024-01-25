@@ -7,7 +7,7 @@
   
 ## Data Sources, Data Cleaning, and Manipulation
 
- [Our data](https://divvy-tripdata.s3.amazonaws.com/index.html) comes directly from the primary source: Cyclistic Bikeshare services (Divvy). The data is open and made available to use by [this license agreement](https://divvybikes.com/data-license-agreement). It comes in the form of 12 .csv files, one for each month of 2023.
+ Our data [click here for source](https://divvy-tripdata.s3.amazonaws.com/index.html) comes directly from the primary source: Cyclistic Bikeshare services (Divvy). The data is open and made available to use by [this license agreement](https://divvybikes.com/data-license-agreement). It comes in the form of 12 .csv files, one for each month of 2023.
 
   I chose to use SQL in BigQuery to gather, clean, and analyze our data. Because of the quantity of data (nearly 6 million rows with 13 columns), a spreadsheet tool would be quite unwieldy to use for this task.
   
@@ -97,7 +97,7 @@
  - Increase awareness of Cyclistic stations near train stations/bus stops that casuals users frequent.
 
 
-### 3. Increase marketing spending during the weekend days and spring and summer months.
+### Increase marketing spending during the weekend days and spring and summer months.
 
  - One of the biggest differences in the data of the two user types was the amount of rides that were on the weekend days. Since casual users are using Cyclistic more on these days, there is likely value to gain from focusing on marketing to them during the weekends.
 
