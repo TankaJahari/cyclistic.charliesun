@@ -2,9 +2,9 @@
 
 ## Business Task
 
-  In this case study, I am tasked with finding key differences in how annual members and casual users use Cyclistic bikeshare. 
+  In this case study, I am tasked with finding insights on how annual members and casual users use Cyclistic bikeshare. 
   
-  I will use these differences to provide insights and recommendations to our stakeholders to achieve their goal of convert casual users into annual members through digital marketing.
+  I will use these findings to provide insights and recommendations to our stakeholders to achieve their goal of convert casual users into annual members through digital marketing.
 
   
 ## Data Sources, Data Cleaning, and Manipulation
