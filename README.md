@@ -67,11 +67,11 @@ For this analysis, I used Tableau Public to visualize the findings from our data
 
 **Hour of Day**
 
- - Visualizing the data for rides per hour of day showed both similarities as well as differences in the two user types.
+ - Visualizing the data for rides per hour of day showed differences as well as similarities between the two user types.
 
- - For casual users, the ride count started low in the morning but continuously rose throughout the day and **peaked at 5PM** before a decline into the nighttime hours.
+ - For casual users, the ride count started low in the morning but continuously rose throughout the day and **peaked at 5PM** before seeing a decline into the nighttime hours.
 
- - For annual members, the ride count also started low in the early morning, but rose more rapidly and **spiked at 8AM**. It then trailed off until 12PM before rising again and **peaked at 5PM**. There was a steeper decline into the nighttime hours for annual members. 
+ - For annual members, the ride count also started low in the early morning, but rose more rapidly and **spiked at 8AM**. It then trailed off until 12PM before rising again and **peaked at 5PM**. There was a steeper decline into the nighttime hours for annual members, meaning they rode Cyclistic bikes less at night than casual users. 
 
 <p align="center">  
 <img src= "https://github.com/thecharliesun/cyclistic.charliesun/blob/main/Visualizations/Hour%20of%20Day.PNG?raw=true">
@@ -113,7 +113,7 @@ For this analysis, I used Tableau Public to visualize the findings from our data
 
 ## Summary of Analysis
 
- - Casual users, compared to annual members, likely utilized Cyclistic more for recreation and leisure based on their **longer average ride durations, peak usage days (weekends), preference for electric bikes, and ride locations**. Casual users were also the sole users of docked bikes.
+ - Casual users, compared to annual members, likely utilized Cyclistic more for recreation and leisure based on their **longer average ride durations, peak usage days (weekends), preference for electric bikes, and ride locations**. Casual users also used Cyclistic during the nighttime hours more than annual members (proportionally).
 
  - Annual members on the other hand, likely used Cyclistic more for commuting and as a general mode transportation. This observation is based on their **peak usage days and hours (weekdays; 8AM and 5PM), shorter average ride durations, and total volume of rides**. These insights indicate that annual members use Cyclistic more frequently  Annual members showed a relatively negligible difference in bike type preference.
 
@@ -130,7 +130,7 @@ For this analysis, I used Tableau Public to visualize the findings from our data
  - The data for casual users showed that many already do use Cyclistic to commute *from* work in the evenings, but not *to* work in the mornings. This could be for many reasons, but a logical guess is that they are in a hurry to get to work and/or don't want to show up sweaty and out of breath in business attire and thus opt for the faster and more traditional modes of transportation in the morning. 
 
 
-Since casual users showed a preference for electric bikes, focus on marketing Cyclistic's electric bikes as an easy and quick way to still get a bike ride in on the way to work. Electric bikes showed a lower average ride duration across all user types, indicating that they are faster and more time-efficient. This makes them a great option for users who want to bike to work but are reluctant to due to logistical constraints. 
+ - Since casual users showed a preference for electric bikes, focus on marketing Cyclistic's electric bikes as an easy and quick way to still get a bike ride in on the way to work. Electric bikes showed a lower average ride duration across all user types, indicating that they are faster and more time-efficient. This makes them a great option for users who want to bike to work but are reluctant to due to logistical constraints. 
 
    
  - Use and promote referral incentives. Since so many annual members use Cyclistic to commute to work, they may have colleagues and co-workers who use the service casually, that could be converted into annual members by seeing Cyclistic as an option for commuting. For example: three free months of membership for both parties if a new user is referred and signs up for an annual membership.
@@ -138,15 +138,17 @@ Since casual users showed a preference for electric bikes, focus on marketing Cy
 
 ### Give annual members priority access to electric bikes 
 
- - As mentioned earlier, our data showed that casual users preferred electric bikes a fair amount over classic bikes. 
+ - As mentioned earlier, our data showed that casual users noticeably preferred electric bikes over classic bikes. 
    
- - Utilize ads on various digital channels (search engine ads, social media platforms) to advertise Cyclistic when users are searching for or browsing through Chicago’s top tourist locations, restaurants, etc.
+ - Aligning with the part of my first recommendation of marketing Cyclistic's electric bikes, giving priority access to new annual members at high traffic times/locations could incentivize casual users to purchase annual memberships.
 
 
 ### Focus marketing and advertising resources on high casual user traffic times and locations
 
- - Casual users used Cyclistic more on the weekend days and in the spring and summer months. Since casual users are using Cyclistic more during these time periods, there is value to gain from focusing advertising resources when users .
+- Utilize advertisements on various digital channels (search engine ads, social media platforms) to advertise Cyclistic when users are searching for or browsing through Chicago’s top tourist locations, restaurants, etc.
+  
+ - Casual users used Cyclistic more on the weekend days and in the spring and summer months. Since these are high traffic periods for casual users, there would be more visibility for advertisements/marketing. There should be value to gain from focusing advertising onto these times.
 
- - If a casual user is using a parking app in a busy or “difficult to drive” location, advertise nearby Cyclistic stations so they might think *“Hmmm, next time, I could just use Cyclistic and bike from/to here. I could save on gas and parking AND see more of Chicago”*.
+ - If a casual user is using a parking app in a busy or 'difficult to drive' location, advertise nearby Cyclistic stations so they might think *“Hmmm, next time, I could just use Cyclistic and bike from/to here. I could save on gas and parking AND see more of Chicago”*.
 
    
