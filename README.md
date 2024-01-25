@@ -26,9 +26,9 @@ My goal is to analyze and discover key insights as to how casual riders and annu
 
 ### Combining Data
 
-I downloaded all 12 .csv files from our data source. Next, I uploaded each file to BigQuery. I aggregated identical columns from all months to create one dataset to facilitate comprehensive analysis for the whole year, and named the table `tota_data_2023`
+I downloaded all 12 .csv files from our data source. Next, I uploaded each file to BigQuery. I aggregated identical columns from all months to create one dataset to facilitate comprehensive analysis for the whole year, and named the table `tota_data_2023` All of my SQL code can be found in the 'SQL Queries' folder of this repository.
 
-[Click here for related SQL Query](https://github.com/thecharliesun/cyclistic.charliesun/blob/main/SQL%20Queries/1.%20Combining%20Data.sql) 
+[*Link to related SQL Query*](https://github.com/thecharliesun/cyclistic.charliesun/blob/main/SQL%20Queries/1.%20Combining%20Data.sql) 
 
 ### Cleaning and Transforming Data
 
@@ -41,11 +41,11 @@ I checked for null values, which were found exclusively in the start_station and
 
 I created a new dataset, `total_data_2023_v2` with calculated columns to make observations on data points like each ride's duration, hour of the day, day of week, and month. I also chose to rename and rearrange some columns for improved readability.
 
-Examining some summary statistics like minimum, maximum, and average, on ride durations showed that we have some extremely long ride durations as well as negative ride durations. These are potential outliers in our data that could skew the results of analyses. I also suspected there may be rides with durations equal to zero, so I ran a query to count 'zero duration rides' which returned a result of 997 rides. Rides with durations equal to exactly zero would have start and end times exactly equal to each other, which would be impossible for a human user to cause, thus likely a technical errorin Cyclistic's system. 
+Examining some summary statistics like minimum, maximum, and average, on ride durations showed that we have some extremely long ride durations as well as negative ride durations. These are potential outliers in our data that could skew the results of analyses. I also suspected there may be rides with durations equal to zero, so I ran a query to count 'zero duration rides' which returned a result of 997 rides. Rides with durations equal to exactly zero would have start and end times exactly equal to each other, which would be impossible for a human user to cause, thus possibly a technical error in Cyclistic's system. 
 
 Negative ride durations at first appear to be irrational and possibly the result of a technical error, but I realized that the start and end times are simply flipped. We can still extract rational ride durations from these data points. I created a new table named `total_data_2023_v3` to omit outliers (rides that lasted 480 minutes or more)*, as well as any trips that had a duration of exactly zero.
 
-[Click here for related SQL Query](https://github.com/thecharliesun/cyclistic.charliesun/blob/main/SQL%20Queries/2.%20Cleaning%20and%20Transforming%20Data.sql)
+[*Link to related SQL Query*](https://github.com/thecharliesun/cyclistic.charliesun/blob/main/SQL%20Queries/2.%20Cleaning%20and%20Transforming%20Data.sql)
 
 (*For null values and statistical outliers in my analysis, I've included # tags in my SQL code to reference the 'Comments' section at the end of this README file that provides a bit of background information and explanation.*)*
 
@@ -55,7 +55,7 @@ Negative ride durations at first appear to be irrational and possibly the result
 With our data cleaned and ready to go, I ran multiple queries to create individual datasets based on metrics like bike types, hour of ride, day of ride, etc. These smaller tables make it easier to extract different insights about specific attributes of rides, as well as visualize our data in a BI tool. 
 
 
-[Click here for SQL Query](https://github.com/thecharliesun/cyclistic.charliesun/blob/main/SQL%20Queries/3.%20Analyzing%20and%20Aggregating%20Data.sql)
+[*Link to related SQL Query*](https://github.com/thecharliesun/cyclistic.charliesun/blob/main/SQL%20Queries/3.%20Analyzing%20and%20Aggregating%20Data.sql)
   
   
 
