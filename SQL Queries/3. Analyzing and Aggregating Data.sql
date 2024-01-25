@@ -1,10 +1,3 @@
---Examining the minimum, maximum, and average ride durations for each user type:
-SELECT AVG(ride_duration_minutes) AS avg,
-MIN(ride_duration_minutes) AS min,
-MAX(ride_duration_minutes) AS max, 
-user_type
-FROM `cyclistic.total_data_2023_v2`
-GROUP BY user_type
 
 --RESULTS: The max ride duration for casual users was 98,489.07 minutes (roughly 68 days). The minimum was -16,656.52 minutes. Examining the data shows that these are outliers. These would skew results so we need to omit them. For this analysis, I'm excluding rides where the duration = 0 OR longer than 480 minutes. Rides like these are not regular use-cases for Cyclistic users, and shouldn't apply to our analysis. I will note in the visuazliations and presentations of this analysis that said datapoints are being excluded. #outliers  
 
