@@ -1,6 +1,4 @@
-
-
---First, I uploaded each month's .csv file to BigQuery (data from https://divvy-tripdata.s3.amazonaws.com/index.html) 
+--Uploaded each month's .csv file to BigQuery (data from https://divvy-tripdata.s3.amazonaws.com/index.html) 
 
 --The datasets all have identical columns, so we can aggregate them into one dataset for the entire year's trip data. 
 
@@ -202,6 +200,23 @@ SELECT bike_type,
 user_type,
 COUNT(*) as ride_count,
 FROM `cyclistic.total_data_2023_v4` 
+GROUP BY bike_type, user_type
+)
+
+--Average Ride Duration per just bike type
+CREATE TABLE `cyclistic.biketype_duration` AS(
+SELECT bike_type,
+AVG(ride_duration_minutes) AS avg_duration
+FROM `cyclistic.total_data_2023_v4`
+GROUP BY bike_type
+)
+
+--Average Ride Duration per bike type and user type
+CREATE TABLE `cyclistic.biketype_users_duration` AS(
+SELECT bike_type,
+user_type,
+AVG(ride_duration_minutes) AS avg_duration
+FROM `cyclistic.total_data_2023_v4`
 GROUP BY bike_type, user_type
 )
 
