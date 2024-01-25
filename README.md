@@ -29,7 +29,7 @@ My goal is to analyze and discover key insights as to how casual riders and annu
 
 I downloaded all 12 .csv files from our data source. Next, I uploaded each file to BigQuery. I aggregated identical columns from all months to create one dataset to facilitate comprehensive analysis for the whole year, and named the table `tota_data_2023`.
 
-[Link to related SQL Query](https://github.com/thecharliesun/cyclistic.charliesun/blob/main/SQL%20Queries/1.%20Combining%20Data.sql) 
+ - [Link to related SQL Query](https://github.com/thecharliesun/cyclistic.charliesun/blob/main/SQL%20Queries/1.%20Combining%20Data.sql) 
 
 ### Cleaning and Transforming Data
 
@@ -46,7 +46,7 @@ Examining some summary statistics like minimum, maximum, and average, on ride du
 
 Negative ride durations at first appear to be irrational and possibly the result of a technical error, but I realized that the start and end times are simply flipped. We can still extract rational ride durations from these data points. I created a new table named `total_data_2023_v3` to omit outliers (rides that lasted 480 minutes or more)*, as well as any trips that had a duration of exactly zero.
 
-[Link to related SQL Query](https://github.com/thecharliesun/cyclistic.charliesun/blob/main/SQL%20Queries/2.%20Cleaning%20and%20Transforming%20Data.sql)
+ - [Link to related SQL Query](https://github.com/thecharliesun/cyclistic.charliesun/blob/main/SQL%20Queries/2.%20Cleaning%20and%20Transforming%20Data.sql)
 
 (*For null values and statistical outliers in my analysis, I've included # tags in my SQL code to reference the 'Comments' section at the end of this README file that provides a bit of background information and explanation.*)*
 
@@ -56,7 +56,7 @@ Negative ride durations at first appear to be irrational and possibly the result
 With our data cleaned and ready to go, I ran multiple queries to create individual datasets based on metrics like bike types, hour of ride, day of ride, etc. These smaller tables make it easier to extract different insights about specific attributes of rides, as well as visualize our data in a BI tool. 
 
 
-[Link to related SQL Query](https://github.com/thecharliesun/cyclistic.charliesun/blob/main/SQL%20Queries/3.%20Analyzing%20and%20Aggregating%20Data.sql)
+ - [Link to related SQL Query](https://github.com/thecharliesun/cyclistic.charliesun/blob/main/SQL%20Queries/3.%20Analyzing%20and%20Aggregating%20Data.sql)
   
   
 
@@ -67,7 +67,7 @@ With our data cleaned and ready to go, I ran multiple queries to create individu
 
 For this analysis, I used Tableau Public to visualize the findings from our data in a dashboard with graphs, charts and maps.
 
-[Link to Tableau Dashboard](https://public.tableau.com/views/CyclisticCaseStudy_17060520013410/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+ - [Link to Tableau Dashboard](https://public.tableau.com/views/CyclisticCaseStudy_17060520013410/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 ### Key Findings:
 **Total Rides**
 
