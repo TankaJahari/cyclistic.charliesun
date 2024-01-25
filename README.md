@@ -12,6 +12,8 @@
   I chose to use SQL in BigQuery to gather, clean, and analyze our data. Because of the quantity of data (nearly 6 million rows with 13 columns), a spreadsheet tool would be quite unwieldy to use for this task.
   
   [Click here for full SQL Query](https://github.com/TankaJahari/cyclistic.charliesun/blob/main/Data%20Cleaning%20and%20Manipulation.sql) 
+  
+  
   *Please Note: For null values and statistical outliers in my analysis, I've included (#) tags to reference my 'comments' found at the end of this README file that provide a bit of background information and explanation.*
 
 
