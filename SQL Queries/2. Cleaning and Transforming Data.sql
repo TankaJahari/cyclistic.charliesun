@@ -56,7 +56,7 @@ WHERE ride_duration_minutes = 0
 
 --We have negative trip durations which at first glance seem omittable ("negative time??"), but my logic tells me that the start/end times were flipped due to a technical error. We can still get usable ride durations from these.
 --Converting negative ride durations to positive using their absolute values. Omitting rides that lasted 480 minutes or more. #outliers
-CREATE TABLE `cyclistic.total_data_2023_v4` AS(
+CREATE TABLE `cyclistic.total_data_2023_v3` AS(
 SELECT 
 ride_id, bike_type, started_at, ended_at, user_type, start_lat, start_lng, end_lat, end_lng,
 ABS(ride_duration_minutes) AS ride_duration_minutes,
