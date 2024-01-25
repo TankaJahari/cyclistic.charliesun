@@ -21,18 +21,18 @@
 
 ## Supporting Visualizations and Key Findings
 
-**For this analysis, I used Tableau Public to visualize key findings with graphs, charts and maps culminating in a dashboard.
+For this analysis, I used Tableau Public to visualize the findings from our data in a dashboard with graphs, charts and maps.
 [Link to Tableau Dashboard](https://public.tableau.com/views/CyclisticCaseStudy_17060520013410/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 ### Key Findings:
-<ins>**Total Rides**</ins>
+**Total Rides**
 
- - Of the 5,708,202 rides in our analysis, casual users accounted for ~36% (2,050,268) of the total, and annual users accounted for ~64% (3,657,934). 
+ - Of the 5,708,202 rides in our analysis, casual users accounted for ~36% (2,050,268), annual users accounted for ~64% (3,657,934). 
 
 **Ride Durations**
 
  - On average, casual user rides lasted over 19 minutes while annual member rides lasted just under 12 minutes.
 
-### Bike Types
+**Bike Types**
 
  - There are three bike types in our data: classic, electric, and docked. 
 
@@ -46,7 +46,7 @@
    
  - For casual users, electric bike rides were shorter by about nine minutes. 
 
-### Hour of Day
+**Hour of Day**
 
  - Visualizing the data for rides per hour of day showed both similarities as well as differences in the two user types.
 
@@ -55,18 +55,18 @@
  - For annual members, the ride count also started low in the early morning, but rose more rapidly and **spiked at 8AM**. It then trailed off until 12PM before rising again and **peaked at 5PM**. There was a steeper decline into the nighttime hours for annual members. 
 
 
-### Day of Week
+**Day of Week**
 
  - For casual users, the highest usage days were weekend days: **Friday, Saturday, and Sunday**, significantly peaking on Saturday.
 
  - For annual members, the highest usage days were in the middle of the week: **Tuesday, Wednesday, and Thursday**. No day had a significant peak, and usage dropped off on the weekend days.
  
-### Month
+**Month**
 
  - Comparing the rides per month for user types showed virtually no differences in their trends. Both casual users and annual members used Cyclistic significantly more during spring and summer months with their peaks being in July and August respectively. 
 
 
-### Ride Locations
+**Ride Locations**
 
  - Using the latitude and longtitude coordinates of ride start locations as geographical data points for rides, our visualization showed that there was a higher concentration of rides for casual users near the lake shore compared to annual members.
 
