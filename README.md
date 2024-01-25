@@ -83,7 +83,7 @@
 
 ### Get casual users to think about using Cyclistic for commuting more, with a focus on electric bikes.
 
- - The data for casual users showed that many may already be using Cyclistic to commute *from*, but not *to* work. This could be for many reasons, but a logical guess would be that they are in a hurry to get to work, or don't want to show up sweaty and out of breath in business attire, thus opt for traditional modes of transportation. Since casual users showed a high usage rate of electric bikes, we could specifically market using electric bikes to get to work. Electric bikes are a great option for users wanting to fit in some exercise on the way to work while not exerting too much energy. 
+ - The data for casual users showed that many may already be using Cyclistic to commute *from*, but not *to* work. This could be for many reasons, but a logical guess is that they are in a hurry to get to work, or don't want to show up sweaty and out of breath in business attire, thus opt for traditional modes of transportation. Since casual users showed a high usage rate of electric bikes, we could specifically market using electric bikes to get to work. Electric bikes are a great option for users wanting to fit in some exercise on the way to work while not exerting too much energy. 
    
  - Create/use referral incentives. Since many annual members use Cyclistic to commute, they may have colleagues and co-workers who use the service casually, that could be converted into annual members by seeing Cyclistic as an option for commuting. For example, a free half or quarter year of membership for both users if the new user signs up for an annual membership.
 
@@ -103,37 +103,3 @@
 
  - Although it's quite predictable for a city like Chicago, our data confirms that the spring and summer months are when the majority of rides take place. Focus marketing resources on the spring and summer months if not already doing so.
    
-
-
-
-
-
-
-
-
---#Comments:
-
---#nulls
-
---Roughly ~550,000 null station names/ids for annual members and ~350,000 for casual users. 
-
---For Annual members, there were more nulls (missing data) in their start_station data than in their end_station data by about 0.4%. 
-
---For Casual users, the inverse was true: *Less* nulls in start_station data by about 14.6%. So the trips for Casual riders more often had their start_station data while missing a larger proportion of end_station data.
-
---This pattern may not be relevant to the analysis for our current task, but it could be useful in others so I wanted to include it in some way.
-
-
---#outliers
-
-
---Examining the data showed that the vast majority of rides (5,577,916 of 5,718,880, 97.5%) being no longer than one hour.
-
---It is more than possible for users to use their bikes for longer than one hour, so I don't want to simply omit all rides past one hour.
-
---To be safe, I'll use a cut-off of eight hours, or 480 minutes. Only 10,674 rides out of 5,708,202 rides (0.19%) lasted longer than 480 minutes. There are rides within these 10,674 that lasted multiple WEEKS and would skew our findings 
-
---*I know this isn't ideal or perfect and there are scientific ways to more precisely determine outliers, but being that I'm working with almost 6 million observations, I'm just moving forward. I played w/ methods like z-scores, interquartile range, and looking at the median absolute deviation (doing some quick research showed that MAD is a robust statistic to measure deviation from the median), but I need to refresh and supplement my stats skills to effectively use these.*
-
-
-
