@@ -29,7 +29,7 @@ My goal is to analyze and discover key insights as to how casual riders and annu
 
 I downloaded all 12 .csv files from our data source. Next, I uploaded each file to BigQuery. The datasets all have identical columns, so we can aggregate them into one dataset for the entire year's trip data. 
 
-I combined the tables for each months to create one new table to facilitate comprehensive analysis for the whole year, and named the table `tota_data_2023`.
+I combined the tables for each month to create one new table to facilitate comprehensive analysis for the whole year, and named the table `tota_data_2023`.
 
  - [Link to related SQL Query](https://github.com/thecharliesun/cyclistic.charliesun/blob/main/SQL%20Queries/1.%20Combining%20Data.sql) 
 
